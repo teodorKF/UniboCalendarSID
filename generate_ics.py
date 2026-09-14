@@ -5,7 +5,7 @@ from datetime import datetime
 from icalendar import Calendar, Event
 
 # Parametri di configurazione
-UNIBO_JSON_URL = "https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche/@@orario_recap_data?anno=1&curricula=B10-000"
+UNIBO_JSON_URL = "https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni/@@orario_recap_data?anno=1&curricula=B10-000"
 OUTPUT_ICS_FILE = "orario_sid_anno1_AL.ics"
 
 def is_target_channel(text):
