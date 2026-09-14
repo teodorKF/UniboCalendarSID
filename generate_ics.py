@@ -19,7 +19,7 @@ def is_target_channel(text):
     return True
 
 def clean_title(title_raw):
-    """Rimuove codici numerici e CFU per lasciare solo il nome del corso."""
+    """Rimuove codici numerici e CFU per lasciare solo il nome pulito del corso."""
     if not title_raw:
         return ""
     title = re.sub(r'^\d+_[A-Z0-9\-_]+\s*-\s*', '', title_raw)
@@ -27,47 +27,49 @@ def clean_title(title_raw):
     return title.strip()
 
 def extract_location(item):
-    """Estrae ed elenca in modo esaustivo aula, piano e indirizzo da qualsiasi struttura JSON."""
-    parts = []
+    """Estrae l'aula e l'indirizzo leggendo la lista 'aule' usata da UNIBO."""
+    aula_name = ""
+    address = ""
 
-    def collect(val):
-        if isinstance(val, str) and val.strip():
-            parts.append(val.strip())
-        elif isinstance(val, dict):
-            for k in ['des_aula', 'nome', 'title', 'aula', 'luogo', 'edificio', 'indirizzo', 'via', 'piano', 'sede']:
-                if k in val and val[k]:
-                    collect(val[k])
-        elif isinstance(val, list):
-            for elem in val:
-                collect(elem)
+    # 1. Lettura dalla lista ufficiale UNIBO 'aule'
+    aule_list = item.get('aule', [])
+    if isinstance(aule_list, list) and len(aule_list) > 0:
+        first_aula = aule_list[0]
+        if isinstance(first_aula, dict):
+            aula_name = first_aula.get('des_aula') or first_aula.get('nome') or ""
+            address = first_aula.get('indirizzo') or first_aula.get('des_edificio') or ""
+        elif isinstance(first_aula, str):
+            aula_name = first_aula
 
-    # Scansione campi principali
-    for field in ['aula', 'luogo', 'edificio', 'indirizzo', 'sede', 'via']:
-        if field in item and item[field]:
-            collect(item[field])
+    # 2. Fallback su campi singoli se 'aule' non fosse presente
+    if not aula_name:
+        raw_aula = item.get('aula')
+        if isinstance(raw_aula, str):
+            aula_name = raw_aula
+        elif isinstance(raw_aula, dict):
+            aula_name = raw_aula.get('des_aula', '')
 
-    # Scansione fallback di sicurezza per parole chiave
-    if not parts:
-        for k, v in item.items():
-            if isinstance(v, str) and any(w in v.upper() for w in ['AULA', 'VIALE', 'VIA ', 'PIANO', 'FORLÌ', 'CAMPUS', 'TEACHING']):
-                parts.append(v.strip())
+    if not address:
+        address = item.get('indirizzo') or item.get('edificio') or item.get('luogo') or ""
+        if isinstance(address, dict):
+            address = address.get('indirizzo', '')
 
-    if not parts:
-        return ""
+    # Formattazione finale: "AULA 12, Viale Filippo Corridoni, 20 - Forlì"
+    aula_clean = str(aula_name).strip()
+    addr_clean = str(address).strip()
 
-    # Rimozione duplicati
-    unique_parts = []
-    for p in parts:
-        if p not in unique_parts:
-            unique_parts.append(p)
+    if aula_clean and addr_clean and addr_clean not in aula_clean:
+        return f"{aula_clean}, {addr_clean}"
+    elif aula_clean:
+        return aula_clean
+    elif addr_clean:
+        return addr_clean
 
-    full_loc = ", ".join(unique_parts)
-    return re.sub(r'\s+', ' ', full_loc)
+    return ""
 
 def generate_stable_uid(item, location_str):
-    """Rigenera gli ID con versione v3 per forzare l'aggiornamento immediato su iOS."""
     raw_id = f"{item.get('cod_modulo', '')}_{item.get('start', '')}_{item.get('end', '')}_{item.get('title', '')}_{location_str}"
-    return hashlib.sha256(raw_id.encode('utf-8')).hexdigest() + "@unibo-sid-v3"
+    return hashlib.sha256(raw_id.encode('utf-8')).hexdigest() + "@unibo-sid-v4"
 
 def build_calendar():
     response = requests.get(UNIBO_JSON_URL, headers={'User-Agent': 'Mozilla/5.0'})
@@ -104,12 +106,12 @@ def build_calendar():
         event.add('dtstamp', now_utc)
         event.add('sequence', current_timestamp)
 
-        # Posizione (Aula + Indirizzo sotto al titolo)
+        # Estrazione Posizione (Aula + Indirizzo)
         location_str = extract_location(item)
         if location_str:
             event.add('location', location_str)
 
-        # UID Stabile
+        # UID Stabile versione 4
         event.add('uid', generate_stable_uid(item, location_str))
 
         # Organizzatore ("Invitation from Docente")
@@ -119,7 +121,7 @@ def build_calendar():
             organizer.params['cn'] = vText(docente)
             event['organizer'] = organizer
 
-        # Descrizione
+        # Descrizione / Note
         desc_lines = []
         if note:
             desc_lines.append(f"Note: {note}")
