@@ -19,7 +19,7 @@ def is_target_channel(text):
     return True
 
 def clean_title(title_raw):
-    """Pulisce il titolo rimuovendo codici numerici iniziali e CFU."""
+    """Pulisce il titolo rimuovendo codici numerici e CFU."""
     if not title_raw:
         return ""
     title = re.sub(r'^\d+_[A-Z0-9\-_]+\s*-\s*', '', title_raw)
@@ -27,41 +27,43 @@ def clean_title(title_raw):
     return title.strip()
 
 def extract_full_location(item):
-    """Estrae aula e indirizzo cercando in tutte le chiavi del JSON UNIBO (compresa des_indirizzo)."""
+    """Estrae l'aula e l'indirizzo gestendo sia stringhe sia dizionari dal JSON UNIBO."""
     aula = ""
     indirizzo = ""
 
-    # 1. Scansione di tutti i possibili oggetti aula nel JSON UNIBO
-    all_dicts = []
-    if isinstance(item.get('aule'), list):
-        all_dicts.extend([x for x in item['aule'] if isinstance(x, dict)])
-    if isinstance(item.get('teoria_aule'), list):
-        all_dicts.extend([x for x in item['teoria_aule'] if isinstance(x, dict)])
-    if isinstance(item.get('aula'), dict):
-        all_dicts.append(item['aula'])
-    if isinstance(item.get('luogo'), dict):
-        all_dicts.append(item['luogo'])
+    # 1. Estrarre da array 'aule' (gestendo sia dizionari che stringhe semplici)
+    aule_list = item.get('aule', [])
+    if isinstance(aule_list, list) and len(aule_list) > 0:
+        first = aule_list[0]
+        if isinstance(first, dict):
+            aula = first.get('des_aula') or first.get('nome') or first.get('title') or ""
+            indirizzo = first.get('des_indirizzo') or first.get('indirizzo') or first.get('des_edificio') or first.get('edificio') or ""
+        elif isinstance(first, str):
+            aula = first.strip()
 
-    for d in all_dicts:
-        if not aula:
-            aula = d.get('des_aula') or d.get('aula') or d.get('nome') or d.get('title') or ""
-        if not indirizzo:
-            indirizzo = d.get('des_indirizzo') or d.get('indirizzo') or d.get('via') or d.get('des_edificio') or d.get('edificio') or ""
-
-    # 2. Fallback su chiavi stringa di primo livello
+    # 2. Estrarre da campo 'aula' singolare se 'aula' è ancora vuota
     if not aula:
         raw_aula = item.get('aula')
-        if isinstance(raw_aula, str) and raw_aula.strip():
+        if isinstance(raw_aula, dict):
+            aula = raw_aula.get('des_aula') or raw_aula.get('nome') or ""
+            if not indirizzo:
+                indirizzo = raw_aula.get('des_indirizzo') or raw_aula.get('indirizzo') or ""
+        elif isinstance(raw_aula, str) and raw_aula.strip():
             aula = raw_aula.strip()
 
+    # 3. Recuperare indirizzo da altre chiavi se mancante
     if not indirizzo:
         for k in ['des_indirizzo', 'indirizzo', 'via', 'des_edificio', 'edificio']:
             val = item.get(k)
             if isinstance(val, str) and val.strip():
                 indirizzo = val.strip()
                 break
+            elif isinstance(val, dict):
+                indirizzo = val.get('des_indirizzo') or val.get('indirizzo') or ""
+                if indirizzo:
+                    break
 
-    # 3. Parsing della stringa 'luogo' completa se ancora incompleta
+    # 4. Parsing di riserva dal campo 'luogo'
     luogo_str = item.get('luogo')
     if isinstance(luogo_str, str) and luogo_str.strip():
         luogo_clean = luogo_str.strip()
@@ -70,7 +72,11 @@ def extract_full_location(item):
             m_aula = re.search(r'\b(AULA\s+[A-Z0-9]+)\b', luogo_clean, re.IGNORECASE)
             if m_aula:
                 aula = m_aula.group(1).upper()
-        
+            else:
+                parts = [p.strip() for p in luogo_clean.split('-') if p.strip()]
+                if parts:
+                    aula = parts[0]
+
         if not indirizzo:
             m_ind = re.search(r'\b((?:via|viale|piazza|corso|p\.zza|v\.le)\s+[^,\-\n]+(?:\s*,\s*\d+)?(?:\s*-\s*Forlì)?)', luogo_clean, re.IGNORECASE)
             if m_ind:
@@ -83,18 +89,18 @@ def extract_full_location(item):
     aula_clean = str(aula).strip()
     ind_clean = str(indirizzo).strip()
 
-    # Formattazione finale: "AULA 12, Viale Filippo Corridoni, 20 - Forlì"
+    # Formattazione finale: "AULA XX, Indirizzo"
     if aula_clean and ind_clean:
-        if ind_clean.lower().startswith(aula_clean.lower()):
+        if ind_clean.lower().startswith(aula_clean.lower()) or aula_clean.lower() in ind_clean.lower():
             return ind_clean
         return f"{aula_clean}, {ind_clean}"
 
     return aula_clean or ind_clean or (luogo_str.strip() if isinstance(luogo_str, str) else "")
 
 def generate_stable_uid(item, location_str):
-    """Versione v7 dell'UID per forzare l'aggiornamento grafico immediato."""
+    """Versione v8 dell'UID per resettare e sovrascrivere la cache di Apple Calendar."""
     raw_id = f"{item.get('cod_modulo', '')}_{item.get('start', '')}_{item.get('end', '')}_{item.get('title', '')}_{location_str}"
-    return hashlib.sha256(raw_id.encode('utf-8')).hexdigest() + "@unibo-sid-v7"
+    return hashlib.sha256(raw_id.encode('utf-8')).hexdigest() + "@unibo-sid-v8"
 
 def build_calendar():
     response = requests.get(UNIBO_JSON_URL, headers={'User-Agent': 'Mozilla/5.0'})
@@ -142,18 +148,21 @@ def build_calendar():
             organizer.params['cn'] = vText(docente)
             event['organizer'] = organizer
 
-        # Alert 30 min prima della lezione
+        # Alert 30 minuti prima
         alarm = Alarm()
         alarm.add('action', 'DISPLAY')
         alarm.add('description', f"Promemoria lezione: {clean_title(raw_title)}")
         alarm.add('trigger', timedelta(minutes=-30))
         event.add_component(alarm)
 
-        # Note / Fonte
+        # Gestione note senza duplicati
         desc_lines = []
+        source_url = "https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni"
         if note:
             desc_lines.append(f"Note: {note}")
-        desc_lines.append("Fonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni")
+        if source_url not in note:
+            desc_lines.append(f"Fonte: {source_url}")
+            
         event.add('description', "\n\n".join(desc_lines))
 
         cal.add_component(event)
