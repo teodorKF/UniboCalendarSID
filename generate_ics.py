@@ -27,60 +27,74 @@ def clean_title(title_raw):
     return title.strip()
 
 def extract_full_location(item):
-    """Formatta la posizione esattamente nel formato: 'AULA XX, Indirizzo'."""
+    """Estrae aula e indirizzo cercando in tutte le chiavi del JSON UNIBO (compresa des_indirizzo)."""
     aula = ""
     indirizzo = ""
 
-    # 1. Estrarre da array 'aule'
-    aule_list = item.get('aule', [])
-    if isinstance(aule_list, list) and len(aule_list) > 0:
-        first = aule_list[0]
-        if isinstance(first, dict):
-            aula = first.get('des_aula') or first.get('nome') or ""
-            indirizzo = first.get('indirizzo') or first.get('des_edificio') or ""
+    # 1. Scansione di tutti i possibili oggetti aula nel JSON UNIBO
+    all_dicts = []
+    if isinstance(item.get('aule'), list):
+        all_dicts.extend([x for x in item['aule'] if isinstance(x, dict)])
+    if isinstance(item.get('teoria_aule'), list):
+        all_dicts.extend([x for x in item['teoria_aule'] if isinstance(x, dict)])
+    if isinstance(item.get('aula'), dict):
+        all_dicts.append(item['aula'])
+    if isinstance(item.get('luogo'), dict):
+        all_dicts.append(item['luogo'])
 
-    # Fallback campi singoli
+    for d in all_dicts:
+        if not aula:
+            aula = d.get('des_aula') or d.get('aula') or d.get('nome') or d.get('title') or ""
+        if not indirizzo:
+            indirizzo = d.get('des_indirizzo') or d.get('indirizzo') or d.get('via') or d.get('des_edificio') or d.get('edificio') or ""
+
+    # 2. Fallback su chiavi stringa di primo livello
     if not aula:
         raw_aula = item.get('aula')
-        if isinstance(raw_aula, str):
-            aula = raw_aula
-        elif isinstance(raw_aula, dict):
-            aula = raw_aula.get('des_aula', '')
+        if isinstance(raw_aula, str) and raw_aula.strip():
+            aula = raw_aula.strip()
 
     if not indirizzo:
-        indirizzo = item.get('indirizzo') or item.get('edificio') or ""
+        for k in ['des_indirizzo', 'indirizzo', 'via', 'des_edificio', 'edificio']:
+            val = item.get(k)
+            if isinstance(val, str) and val.strip():
+                indirizzo = val.strip()
+                break
 
-    # Parsing di riserva dalla stringa 'luogo'
-    luogo_str = item.get('luogo', '')
+    # 3. Parsing della stringa 'luogo' completa se ancora incompleta
+    luogo_str = item.get('luogo')
     if isinstance(luogo_str, str) and luogo_str.strip():
+        luogo_clean = luogo_str.strip()
+        
         if not aula:
-            m_aula = re.search(r'(AULA\s+\d+)', luogo_str, re.IGNORECASE)
+            m_aula = re.search(r'\b(AULA\s+[A-Z0-9]+)\b', luogo_clean, re.IGNORECASE)
             if m_aula:
                 aula = m_aula.group(1).upper()
+        
         if not indirizzo:
-            m_ind = re.search(r'((?:via|viale|piazza|corso)\s+[^,-]+(?:,\s*\d+)?(?:\s*-\s*[^,-]+)?)', luogo_str, re.IGNORECASE)
+            m_ind = re.search(r'\b((?:via|viale|piazza|corso|p\.zza|v\.le)\s+[^,\-\n]+(?:\s*,\s*\d+)?(?:\s*-\s*Forlì)?)', luogo_clean, re.IGNORECASE)
             if m_ind:
                 indirizzo = m_ind.group(1).strip()
             else:
-                parts = [p.strip() for p in luogo_str.split('-') if p.strip()]
+                parts = [p.strip() for p in luogo_clean.split('-') if p.strip()]
                 if len(parts) > 1:
                     indirizzo = parts[-1]
 
     aula_clean = str(aula).strip()
     ind_clean = str(indirizzo).strip()
 
-    # Formattazione finale: "AULA XX, Indirizzo"
+    # Formattazione finale: "AULA 12, Viale Filippo Corridoni, 20 - Forlì"
     if aula_clean and ind_clean:
         if ind_clean.lower().startswith(aula_clean.lower()):
             return ind_clean
         return f"{aula_clean}, {ind_clean}"
-    
+
     return aula_clean or ind_clean or (luogo_str.strip() if isinstance(luogo_str, str) else "")
 
 def generate_stable_uid(item, location_str):
-    """Versione v6 dell'UID per forzare l'aggiornamento grafico immediato."""
+    """Versione v7 dell'UID per forzare l'aggiornamento grafico immediato."""
     raw_id = f"{item.get('cod_modulo', '')}_{item.get('start', '')}_{item.get('end', '')}_{item.get('title', '')}_{location_str}"
-    return hashlib.sha256(raw_id.encode('utf-8')).hexdigest() + "@unibo-sid-v6"
+    return hashlib.sha256(raw_id.encode('utf-8')).hexdigest() + "@unibo-sid-v7"
 
 def build_calendar():
     response = requests.get(UNIBO_JSON_URL, headers={'User-Agent': 'Mozilla/5.0'})
@@ -114,7 +128,7 @@ def build_calendar():
         event.add('dtstamp', now_utc)
         event.add('sequence', current_timestamp)
 
-        # Posizione nel formato "AULA XX, Indirizzo"
+        # Posizione (Aula + Indirizzo)
         location_str = extract_full_location(item)
         if location_str:
             event.add('location', location_str)
