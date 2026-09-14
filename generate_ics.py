@@ -19,29 +19,32 @@ def is_target_channel(text):
     return True
 
 def clean_title(title_raw):
-    """Pulisce il titolo rimuovendo codici numerici e CFU."""
+    """Pulisce il titolo rimuovendo codici numerici iniziali e CFU."""
     if not title_raw:
         return ""
     title = re.sub(r'^\d+_[A-Z0-9\-_]+\s*-\s*', '', title_raw)
     title = re.sub(r'\s*\(\d+\s*CFU\)', '', title)
     return title.strip()
 
-def extract_full_location(item):
-    """Estrae l'aula e l'indirizzo gestendo sia stringhe sia dizionari dal JSON UNIBO."""
+def extract_location(item):
+    """Estrae con garanzia sia l'aula che l'indirizzo senza perdere pezzi."""
     aula = ""
     indirizzo = ""
 
-    # 1. Estrarre da array 'aule' (gestendo sia dizionari che stringhe semplici)
-    aule_list = item.get('aule', [])
+    # 1. Cerca nell'array 'aule' (oggetti o stringhe)
+    aule_list = item.get('aule')
     if isinstance(aule_list, list) and len(aule_list) > 0:
-        first = aule_list[0]
-        if isinstance(first, dict):
-            aula = first.get('des_aula') or first.get('nome') or first.get('title') or ""
-            indirizzo = first.get('des_indirizzo') or first.get('indirizzo') or first.get('des_edificio') or first.get('edificio') or ""
-        elif isinstance(first, str):
-            aula = first.strip()
+        for a in aule_list:
+            if isinstance(a, dict):
+                if not aula:
+                    aula = a.get('des_aula') or a.get('nome') or a.get('aula') or a.get('title') or ""
+                if not indirizzo:
+                    indirizzo = a.get('des_indirizzo') or a.get('indirizzo') or a.get('des_edificio') or a.get('edificio') or ""
+            elif isinstance(a, str) and a.strip():
+                if not aula:
+                    aula = a.strip()
 
-    # 2. Estrarre da campo 'aula' singolare se 'aula' è ancora vuota
+    # 2. Cerca nel campo 'aula' singolare se ancora manca
     if not aula:
         raw_aula = item.get('aula')
         if isinstance(raw_aula, dict):
@@ -51,56 +54,40 @@ def extract_full_location(item):
         elif isinstance(raw_aula, str) and raw_aula.strip():
             aula = raw_aula.strip()
 
-    # 3. Recuperare indirizzo da altre chiavi se mancante
+    # 3. Cerca indirizzo/edificio tra i campi di primo livello
     if not indirizzo:
-        for k in ['des_indirizzo', 'indirizzo', 'via', 'des_edificio', 'edificio']:
+        for k in ['des_indirizzo', 'indirizzo', 'des_edificio', 'edificio', 'via']:
             val = item.get(k)
             if isinstance(val, str) and val.strip():
                 indirizzo = val.strip()
                 break
-            elif isinstance(val, dict):
-                indirizzo = val.get('des_indirizzo') or val.get('indirizzo') or ""
-                if indirizzo:
-                    break
-
-    # 4. Parsing di riserva dal campo 'luogo'
-    luogo_str = item.get('luogo')
-    if isinstance(luogo_str, str) and luogo_str.strip():
-        luogo_clean = luogo_str.strip()
-        
-        if not aula:
-            m_aula = re.search(r'\b(AULA\s+[A-Z0-9]+)\b', luogo_clean, re.IGNORECASE)
-            if m_aula:
-                aula = m_aula.group(1).upper()
-            else:
-                parts = [p.strip() for p in luogo_clean.split('-') if p.strip()]
-                if parts:
-                    aula = parts[0]
-
-        if not indirizzo:
-            m_ind = re.search(r'\b((?:via|viale|piazza|corso|p\.zza|v\.le)\s+[^,\-\n]+(?:\s*,\s*\d+)?(?:\s*-\s*Forlì)?)', luogo_clean, re.IGNORECASE)
-            if m_ind:
-                indirizzo = m_ind.group(1).strip()
-            else:
-                parts = [p.strip() for p in luogo_clean.split('-') if p.strip()]
-                if len(parts) > 1:
-                    indirizzo = parts[-1]
 
     aula_clean = str(aula).strip()
     ind_clean = str(indirizzo).strip()
 
-    # Formattazione finale: "AULA XX, Indirizzo"
+    # Unione finale
     if aula_clean and ind_clean:
-        if ind_clean.lower().startswith(aula_clean.lower()) or aula_clean.lower() in ind_clean.lower():
+        if aula_clean.lower() in ind_clean.lower():
             return ind_clean
         return f"{aula_clean}, {ind_clean}"
+    
+    if aula_clean:
+        return aula_clean
+        
+    if ind_clean:
+        return ind_clean
 
-    return aula_clean or ind_clean or (luogo_str.strip() if isinstance(luogo_str, str) else "")
+    # 4. Paracadute finale su 'luogo'
+    luogo_val = item.get('luogo')
+    if isinstance(luogo_val, str) and luogo_val.strip():
+        return luogo_val.strip()
+
+    return ""
 
 def generate_stable_uid(item, location_str):
-    """Versione v8 dell'UID per resettare e sovrascrivere la cache di Apple Calendar."""
+    """Versione v9 per forzare il refresh immediato in iOS/macOS."""
     raw_id = f"{item.get('cod_modulo', '')}_{item.get('start', '')}_{item.get('end', '')}_{item.get('title', '')}_{location_str}"
-    return hashlib.sha256(raw_id.encode('utf-8')).hexdigest() + "@unibo-sid-v8"
+    return hashlib.sha256(raw_id.encode('utf-8')).hexdigest() + "@unibo-sid-v9"
 
 def build_calendar():
     response = requests.get(UNIBO_JSON_URL, headers={'User-Agent': 'Mozilla/5.0'})
@@ -134,8 +121,8 @@ def build_calendar():
         event.add('dtstamp', now_utc)
         event.add('sequence', current_timestamp)
 
-        # Posizione (Aula + Indirizzo)
-        location_str = extract_full_location(item)
+        # Posizione garantita (Aula + Indirizzo)
+        location_str = extract_location(item)
         if location_str:
             event.add('location', location_str)
 
@@ -155,7 +142,7 @@ def build_calendar():
         alarm.add('trigger', timedelta(minutes=-30))
         event.add_component(alarm)
 
-        # Gestione note senza duplicati
+        # Note / Fonte
         desc_lines = []
         source_url = "https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni"
         if note:
