@@ -10,15 +10,28 @@ end_date = (datetime.now() + timedelta(days=300)).strftime("%Y-%m-%d")
 UNIBO_JSON_URL = f"https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni/@@orario_reale_json?anno=1&curricula=B10-000&start={start_date}&end={end_date}"
 OUTPUT_ICS_FILE = "orario_sid_anno1_AL.ics"
 
-def is_target_channel(text):
-    if not text:
-        return True
-    text_upper = text.upper()
+def is_target_event(item):
+    """Filtra i canali M-Z, i corsi tutoriali e specificamente i LABORATORI di inglese."""
+    raw_title = item.get('title', '')
+    note = item.get('note', '') or ''
+    text_upper = f"{raw_title} {note}".upper()
+
+    # 1. Esclusione Canale M-Z
     if re.search(r'\bM-Z\b', text_upper) or re.search(r'CANALE\s+[M-Z]', text_upper):
         return False
+
+    # 2. Esclusione Corsi Tutoriali
+    if re.search(r'TUTOR', text_upper):
+        return False
+
+    # 3. Esclusione SPECIFICA per i Laboratori di Lingua Inglese (es. "LAB LINGUA INGLESE N...")
+    if re.search(r'\bLAB(?:ORATORIO)?\b.*INGLESE', text_upper) or re.search(r'\bLAB\..*INGLESE', text_upper):
+        return False
+
     return True
 
 def clean_title(title_raw):
+    """Pulisce il titolo mantenendo solo il nome del corso."""
     if not title_raw:
         return ""
     title = re.sub(r'^\d+_[A-Z0-9\-_]+\s*-\s*', '', title_raw)
@@ -26,11 +39,10 @@ def clean_title(title_raw):
     return title.strip()
 
 def extract_full_location(item):
-    """Estrae con certezza l'aula controllando anche 'des_risorsa' e il campo 'luogo'."""
+    """Estrae l'aula e l'indirizzo dal JSON UNIBO."""
     aula = ""
     indirizzo = ""
 
-    # 1. Controllo dell'array 'aule' (inclusa la chiave 'des_risorsa')
     aule = item.get('aule', [])
     if isinstance(aule, list):
         for a in aule:
@@ -44,7 +56,6 @@ def extract_full_location(item):
             elif isinstance(a, str) and a.strip() and not aula:
                 aula = a.strip()
 
-    # 2. Controllo chiavi singole se manca l'aula
     if not aula:
         raw_aula = item.get('aula') or item.get('des_aula') or item.get('des_risorsa')
         if isinstance(raw_aula, dict):
@@ -54,7 +65,6 @@ def extract_full_location(item):
         elif isinstance(raw_aula, str) and raw_aula.strip():
             aula = raw_aula.strip()
 
-    # 3. Controllo indirizzo se manca
     if not indirizzo:
         for k in ['des_indirizzo', 'indirizzo', 'des_edificio', 'edificio', 'via']:
             v = item.get(k)
@@ -65,7 +75,6 @@ def extract_full_location(item):
     aula = aula.strip()
     indirizzo = indirizzo.strip()
 
-    # Se l'aula è stata estratta con successo dai dati strutturati
     if aula:
         if not re.search(r'aula|lab|sala', aula, re.IGNORECASE):
             if re.match(r'^[A-Z0-9\.\s]+$', aula, re.IGNORECASE):
@@ -76,7 +85,6 @@ def extract_full_location(item):
             return f"{aula}, {indirizzo}"
         return aula
 
-    # PARACADUTE: Se l'aula non è stata trovata nei dati strutturati, usiamo 'luogo'
     luogo = item.get('luogo')
     if isinstance(luogo, str) and luogo.strip():
         return luogo.strip()
@@ -84,9 +92,9 @@ def extract_full_location(item):
     return indirizzo or ""
 
 def generate_stable_uid(item, loc):
-    """Versione v13 per sostituire la scheda in cache."""
+    """Versione v15 per aggiornare la visualizzazione su Apple Calendar."""
     raw_id = f"{item.get('cod_modulo', '')}_{item.get('start', '')}_{item.get('end', '')}_{item.get('title', '')}_{loc}"
-    return hashlib.sha256(raw_id.encode('utf-8')).hexdigest() + "@unibo-sid-v13"
+    return hashlib.sha256(raw_id.encode('utf-8')).hexdigest() + "@unibo-sid-v15"
 
 def build_calendar():
     response = requests.get(UNIBO_JSON_URL, headers={'User-Agent': 'Mozilla/5.0'})
@@ -104,11 +112,11 @@ def build_calendar():
     current_timestamp = int(now_utc.timestamp())
 
     for item in events_data:
+        if not is_target_event(item):
+            continue
+
         raw_title = item.get('title', '')
         note = item.get('note', '').strip() if item.get('note') else ''
-        
-        if not is_target_channel(f"{raw_title} {note}"):
-            continue
 
         base_title = clean_title(raw_title)
         location_str = extract_full_location(item)
