@@ -1,7 +1,7 @@
 import re
 import hashlib
 import requests
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from icalendar import Calendar, Event, vCalAddress, vText
 
 start_date = datetime.now().strftime("%Y-%m-%d")
@@ -17,6 +17,30 @@ def is_target_channel(text):
     if re.search(r'\bM-Z\b', text_upper) or re.search(r'CANALE\s+[M-Z]', text_upper):
         return False
     return True
+
+def extract_location(item):
+    """Estrae aula, edificio e indirizzo in qualsiasi formato inviato da UNIBO."""
+    parts = []
+    aula_raw = item.get('aula')
+    
+    # Se 'aula' è un oggetto/dizionario
+    if isinstance(aula_raw, dict):
+        des = aula_raw.get('des_aula') or aula_raw.get('nome') or aula_raw.get('title')
+        ind = aula_raw.get('indirizzo') or aula_raw.get('via')
+        if des: parts.append(str(des).strip())
+        if ind: parts.append(str(ind).strip())
+    elif isinstance(aula_raw, str) and aula_raw.strip():
+        parts.append(aula_raw.strip())
+
+    # Controlla campi secondari per edificio/indirizzo/luogo
+    for key in ['edificio', 'indirizzo', 'luogo', 'sede']:
+        val = item.get(key)
+        if val and isinstance(val, str) and val.strip():
+            val_clean = val.strip()
+            if val_clean not in parts and val_clean not in ", ".join(parts):
+                parts.append(val_clean)
+
+    return ", ".join(parts) if parts else ""
 
 def generate_stable_uid(item):
     raw_id = f"{item.get('cod_modulo', '')}_{item.get('start', '')}_{item.get('end', '')}_{item.get('title', '')}"
@@ -34,6 +58,8 @@ def build_calendar():
     cal.add('x-published-ttl', 'PT15M')
     cal.add('refresh-interval;value=duration', 'PT15M')
 
+    now_utc = datetime.now(timezone.utc)
+
     for item in events_data:
         title = item.get('title', '').strip()
         note = item.get('note', '').strip() if item.get('note') else ''
@@ -43,33 +69,32 @@ def build_calendar():
 
         event = Event()
         
-        # Titolo pulito come nell'immagine di riferimento
+        # Titolo
         event.add('summary', title)
 
-        # Date e Orari
+        # Date e timestamp di aggiornamento per iOS
         start_dt = datetime.fromisoformat(item['start'])
         end_dt = datetime.fromisoformat(item['end'])
         event.add('dtstart', start_dt)
         event.add('dtend', end_dt)
+        event.add('dtstamp', now_utc)
 
-        # UID Stabile
+        # UID Stabile per modifiche/cancellazioni dinamiche
         event.add('uid', generate_stable_uid(item))
 
-        # Luogo/Aula sotto il titolo
-        aula = item.get('aula', '').strip() if item.get('aula') else ''
-        edificio = item.get('edificio', '').strip() if item.get('edificio') else ''
-        location_parts = [p for p in [aula, edificio] if p]
-        if location_parts:
-            event.add('location', ", ".join(location_parts))
+        # Posizione (Aula + Indirizzo)
+        location_str = extract_location(item)
+        if location_str:
+            event.add('location', location_str)
 
-        # Docente impostato come Organizzatore (Crea il badge "Invitation from Docente")
+        # Docente come Organizzatore
         docente = item.get('docente', '').strip() if item.get('docente') else ''
         if docente:
             organizer = vCalAddress('mailto:docente@unibo.it')
             organizer.params['cn'] = vText(docente)
             event['organizer'] = organizer
 
-        # Note pulite: inserisce solo informazioni reali, evita le scritte N/D
+        # Note
         desc_lines = []
         if note:
             desc_lines.append(f"Note: {note}")
