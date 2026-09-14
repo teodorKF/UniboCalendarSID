@@ -2,7 +2,7 @@ import re
 import hashlib
 import requests
 from datetime import datetime, timedelta, timezone
-from icalendar import Calendar, Event, vCalAddress, vText
+from icalendar import Calendar, Event, Alarm, vCalAddress, vText
 
 start_date = datetime.now().strftime("%Y-%m-%d")
 end_date = (datetime.now() + timedelta(days=300)).strftime("%Y-%m-%d")
@@ -19,57 +19,68 @@ def is_target_channel(text):
     return True
 
 def clean_title(title_raw):
-    """Rimuove codici numerici e CFU per lasciare solo il nome pulito del corso."""
+    """Pulisce il titolo rimuovendo codici numerici iniziali e CFU."""
     if not title_raw:
         return ""
     title = re.sub(r'^\d+_[A-Z0-9\-_]+\s*-\s*', '', title_raw)
     title = re.sub(r'\s*\(\d+\s*CFU\)', '', title)
     return title.strip()
 
-def extract_location(item):
-    """Estrae l'aula e l'indirizzo leggendo la lista 'aule' usata da UNIBO."""
-    aula_name = ""
-    address = ""
+def extract_full_location(item):
+    """Formatta la posizione esattamente nel formato: 'AULA XX, Indirizzo'."""
+    aula = ""
+    indirizzo = ""
 
-    # 1. Lettura dalla lista ufficiale UNIBO 'aule'
+    # 1. Estrarre da array 'aule'
     aule_list = item.get('aule', [])
     if isinstance(aule_list, list) and len(aule_list) > 0:
-        first_aula = aule_list[0]
-        if isinstance(first_aula, dict):
-            aula_name = first_aula.get('des_aula') or first_aula.get('nome') or ""
-            address = first_aula.get('indirizzo') or first_aula.get('des_edificio') or ""
-        elif isinstance(first_aula, str):
-            aula_name = first_aula
+        first = aule_list[0]
+        if isinstance(first, dict):
+            aula = first.get('des_aula') or first.get('nome') or ""
+            indirizzo = first.get('indirizzo') or first.get('des_edificio') or ""
 
-    # 2. Fallback su campi singoli se 'aule' non fosse presente
-    if not aula_name:
+    # Fallback campi singoli
+    if not aula:
         raw_aula = item.get('aula')
         if isinstance(raw_aula, str):
-            aula_name = raw_aula
+            aula = raw_aula
         elif isinstance(raw_aula, dict):
-            aula_name = raw_aula.get('des_aula', '')
+            aula = raw_aula.get('des_aula', '')
 
-    if not address:
-        address = item.get('indirizzo') or item.get('edificio') or item.get('luogo') or ""
-        if isinstance(address, dict):
-            address = address.get('indirizzo', '')
+    if not indirizzo:
+        indirizzo = item.get('indirizzo') or item.get('edificio') or ""
 
-    # Formattazione finale: "AULA 12, Viale Filippo Corridoni, 20 - Forlì"
-    aula_clean = str(aula_name).strip()
-    addr_clean = str(address).strip()
+    # Parsing di riserva dalla stringa 'luogo'
+    luogo_str = item.get('luogo', '')
+    if isinstance(luogo_str, str) and luogo_str.strip():
+        if not aula:
+            m_aula = re.search(r'(AULA\s+\d+)', luogo_str, re.IGNORECASE)
+            if m_aula:
+                aula = m_aula.group(1).upper()
+        if not indirizzo:
+            m_ind = re.search(r'((?:via|viale|piazza|corso)\s+[^,-]+(?:,\s*\d+)?(?:\s*-\s*[^,-]+)?)', luogo_str, re.IGNORECASE)
+            if m_ind:
+                indirizzo = m_ind.group(1).strip()
+            else:
+                parts = [p.strip() for p in luogo_str.split('-') if p.strip()]
+                if len(parts) > 1:
+                    indirizzo = parts[-1]
 
-    if aula_clean and addr_clean and addr_clean not in aula_clean:
-        return f"{aula_clean}, {addr_clean}"
-    elif aula_clean:
-        return aula_clean
-    elif addr_clean:
-        return addr_clean
+    aula_clean = str(aula).strip()
+    ind_clean = str(indirizzo).strip()
 
-    return ""
+    # Formattazione finale: "AULA XX, Indirizzo"
+    if aula_clean and ind_clean:
+        if ind_clean.lower().startswith(aula_clean.lower()):
+            return ind_clean
+        return f"{aula_clean}, {ind_clean}"
+    
+    return aula_clean or ind_clean or (luogo_str.strip() if isinstance(luogo_str, str) else "")
 
 def generate_stable_uid(item, location_str):
+    """Versione v6 dell'UID per forzare l'aggiornamento grafico immediato."""
     raw_id = f"{item.get('cod_modulo', '')}_{item.get('start', '')}_{item.get('end', '')}_{item.get('title', '')}_{location_str}"
-    return hashlib.sha256(raw_id.encode('utf-8')).hexdigest() + "@unibo-sid-v4"
+    return hashlib.sha256(raw_id.encode('utf-8')).hexdigest() + "@unibo-sid-v6"
 
 def build_calendar():
     response = requests.get(UNIBO_JSON_URL, headers={'User-Agent': 'Mozilla/5.0'})
@@ -94,11 +105,8 @@ def build_calendar():
             continue
 
         event = Event()
-        
-        # Titolo pulito
         event.add('summary', clean_title(raw_title))
 
-        # Orari e Timestamp
         start_dt = datetime.fromisoformat(item['start'])
         end_dt = datetime.fromisoformat(item['end'])
         event.add('dtstart', start_dt)
@@ -106,12 +114,11 @@ def build_calendar():
         event.add('dtstamp', now_utc)
         event.add('sequence', current_timestamp)
 
-        # Estrazione Posizione (Aula + Indirizzo)
-        location_str = extract_location(item)
+        # Posizione nel formato "AULA XX, Indirizzo"
+        location_str = extract_full_location(item)
         if location_str:
             event.add('location', location_str)
 
-        # UID Stabile versione 4
         event.add('uid', generate_stable_uid(item, location_str))
 
         # Organizzatore ("Invitation from Docente")
@@ -121,7 +128,14 @@ def build_calendar():
             organizer.params['cn'] = vText(docente)
             event['organizer'] = organizer
 
-        # Descrizione / Note
+        # Alert 30 min prima della lezione
+        alarm = Alarm()
+        alarm.add('action', 'DISPLAY')
+        alarm.add('description', f"Promemoria lezione: {clean_title(raw_title)}")
+        alarm.add('trigger', timedelta(minutes=-30))
+        event.add_component(alarm)
+
+        # Note / Fonte
         desc_lines = []
         if note:
             desc_lines.append(f"Note: {note}")
