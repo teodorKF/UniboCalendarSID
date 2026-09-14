@@ -8,10 +8,10 @@ BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20260921T150000
 DTEND:20260921T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:a69f727c0c32b7afe82ef76966c3647e89a5e95760b3e58f029d0fb9d501c96c@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -25,34 +25,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:corso tutoriale - Storia internazionale dell'età contemporanea- d
- ott. Guzzo
-DTSTART:20260921T170000
-DTEND:20260921T190000
-DTSTAMP:20260914T222530Z
-UID:ecf47c276bd483b6e7b49e35b6e77b9f340c4310a7fd4d0ec64c7c77b90d9856@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nNote: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatich
- e/tutor-del-corso-di-studio\n\nFonte: https://corsi.unibo.it/laurea/Scienz
- eInternazionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: corso tutoriale - Storia internazionale de
- ll'età contemporanea- dott. Guzzo
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20260922T110000
 DTEND:20260922T130000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:fc651e1de0df2581de7f70612f68ee54477745841d3f315a046c5597f3ffa0aa@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -69,10 +48,10 @@ BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20260922T150000
 DTEND:20260922T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:bca8ad5a092d0ed76f70c61801044388aeff69ec85be435aad225d492e38ec2b@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 4\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -89,10 +68,10 @@ BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20260922T170000
 DTEND:20260922T190000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:ad10485b82c7b5bc5d316bf8e97fc3894719fc5e335248f730cabbba2da301fe@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 4\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -109,10 +88,10 @@ BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20260923T090000
 DTEND:20260923T110000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:d60a7728736e9945e12e6b2aae784da482aa32b574b9d1b05a45477598907e1e@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -129,10 +108,10 @@ BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20260924T090000
 DTEND:20260924T110000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:ef3b5ff34fd07110d96d22cf5316618699b5cc6f16ab0905273b5dd3dab10d88@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 4\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -149,10 +128,10 @@ BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20260924T150000
 DTEND:20260924T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:1871d9f2edc846ba332ffb208ea72bd468effc1de341e4d80ae9bea640ebe3ae@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -169,10 +148,10 @@ BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20260925T130000
 DTEND:20260925T150000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:00c5aad8561192426c9e0abaf831918edfc490146858a8b6f28fcd67ec4a3782@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 4\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -189,10 +168,10 @@ BEGIN:VEVENT
 SUMMARY:test livello lingua inglese
 DTSTART:20260928T090000
 DTEND:20260928T150000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:75129af2afe90a7e1a6efb8e74c9ef3990b53c5c4fb9e30d61be96741301cf50@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 5\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -207,10 +186,10 @@ BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20260928T150000
 DTEND:20260928T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:f52aac25939c6edd4b9cdc7b8829f3c28c07f9dba9bb0f1f848dcbe5466086b8@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -227,10 +206,10 @@ BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20260929T110000
 DTEND:20260929T130000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:ed0a802ac3142ba02095eacea9141f29982c46218bbd82ac8bb8daede226dfed@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -247,10 +226,10 @@ BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20260929T150000
 DTEND:20260929T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:7b04f80be5e35bdf58b140fafb2e4379a83f760a2cba608db24b7918bc1eeb01@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 4\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -267,10 +246,10 @@ BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20260929T170000
 DTEND:20260929T190000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:5c627e155aa434fe92c5362f20a5bb983b0d451c216644ad3199b337fa4abc88@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 4\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -287,10 +266,10 @@ BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20260930T090000
 DTEND:20260930T110000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:ce8b40b5508666b82e17448c1b75add8e0cdc189d0a0ad867ada995a6b9111d9@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -304,31 +283,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:corso tutoriale DIRITTO COSTITUZIONALE COMPARATO - dott.ssa Minni
-DTSTART:20260930T170000
-DTEND:20260930T190000
-DTSTAMP:20260914T222530Z
-UID:77ccedc606c3aed707598d2704e989c9e325b4736eba63eb8574b7954f443ea1@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:Note: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplo
- matiche/tutor-del-corso-di-studio\n\nFonte: https://corsi.unibo.it/laurea/
- ScienzeInternazionaliDiplomatiche/orario-lezioni
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: corso tutoriale DIRITTO COSTITUZIONALE COM
- PARATO - dott.ssa Minni
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261001T090000
 DTEND:20261001T110000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:a8726a972d0c414006f8890304208d15bc7b858ba0e7879e81f8dcb2736e529c@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 4\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -345,10 +306,10 @@ BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261001T150000
 DTEND:20261001T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:9a5acf1127b309131fc172dbd49788403f718b91390a4538bb15c0f87b907fc8@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -362,31 +323,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:corso tutoriale SOCIOLOGIA DEI PROCESSI CULTURALI - dott. Andolfo
-DTSTART:20261001T170000
-DTEND:20261001T190000
-DTSTAMP:20260914T222530Z
-UID:03346e4a6353f76cac54ddc20791d7d65727f5426d2f369fe0790dfcdff610fc@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:Note: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplo
- matiche/tutor-del-corso-di-studio\n\nFonte: https://corsi.unibo.it/laurea/
- ScienzeInternazionaliDiplomatiche/orario-lezioni
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: corso tutoriale SOCIOLOGIA DEI PROCESSI CU
- LTURALI - dott. Andolfo
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261002T110000
 DTEND:20261002T130000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:ebc915f10aa4c3ef959208a005f85fba8c4eaab9c9f2241bbb2165d8b9868b4a@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 6\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -403,10 +346,10 @@ BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261002T130000
 DTEND:20261002T150000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:a1245b68fe15033dd368b805c7bce0b4961bb906af7b826b14d27b65d73cfc66@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 4\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -420,103 +363,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 5 - Pavone
-DTSTART:20261005T090000
-DTEND:20261005T110000
-DTSTAMP:20260914T222530Z
-UID:f75852f3d8c99a69b133abd4f83890ff1b6d581e9787d065babc4bb4010af1c1@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corri
- doni\, 20 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternaz
- ionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 5 - Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 1 - Di Serio
-DTSTART:20261005T090000
-DTEND:20261005T110000
-DTSTAMP:20260914T222530Z
-UID:c0bca5998a601fc42ab4cb20ef631c7528f2840aca7a2f52de9e6930bbeb17af@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 2.1\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 2.1\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 1 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 2 - Di Serio
-DTSTART:20261005T110000
-DTEND:20261005T130000
-DTSTAMP:20260914T222530Z
-UID:3f7bd60d1f85c8df31b149790e59befc54cbef3a29aa5b4aafdb574221c5585c@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corri
- doni\, 20 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternaz
- ionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 2 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 6 Pavone
-DTSTART:20261005T110000
-DTEND:20261005T130000
-DTSTAMP:20260914T222530Z
-UID:5eac224866945ef5741534e81923ff78b682f262f24a09c0fa77976e665d9778@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 6 Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 3 - Di Serio
-DTSTART:20261005T130000
-DTEND:20261005T150000
-DTSTAMP:20260914T222530Z
-UID:9686019ca226b37f0ca1d4a0f3e168558e207da4a835df5e07f34b8e249eac94@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 3 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261005T150000
 DTEND:20261005T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:94e2bdf257b736c8136f1327379d596c6dc15e008d6c7c167525640f2e19b63d@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -530,69 +383,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:corso tutoriale - Storia internazionale dell'età contemporanea- d
- ott. Guzzo
-DTSTART:20261005T170000
-DTEND:20261005T190000
-DTSTAMP:20260914T222530Z
-UID:a48365ae5c78b3ab446908e173b0b00975b001a8fd74d4c9d2deee7d0f374993@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: corso tutoriale - Storia internazionale de
- ll'età contemporanea- dott. Guzzo
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 4 - Di Serio
-DTSTART:20261006T090000
-DTEND:20261006T110000
-DTSTAMP:20260914T222530Z
-UID:a773b754f04ba717dd5b77246886abdb835c07fba683b02fbdf8ebaf3813e7e2@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 3.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 3.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 4 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 5 - Pavone
-DTSTART:20261006T090000
-DTEND:20261006T110000
-DTSTAMP:20260914T222530Z
-UID:fe584cf7e22ebb5b2db588d7a5484f98e00c32d44fdd376680fa0b4fe7314bfc@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 5 - Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261006T110000
 DTEND:20261006T130000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:1d0344ba68f3a1f230aa121c2f0bcd8eed3cfe5d616a64a22fbd992a337981b8@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -606,31 +403,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 1 - Di Serio
-DTSTART:20261006T130000
-DTEND:20261006T150000
-DTSTAMP:20260914T222530Z
-UID:85ad37ba89d06053ba926683b47670dbe2d262a4bac9c2ccfe66436ff9184728@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 1 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261006T170000
 DTEND:20261006T190000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:f1aa329e311ab5883618297af36bb4ecaf624ee00924856a65c1c5665b42ca9f@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -647,10 +426,10 @@ BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261007T090000
 DTEND:20261007T110000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:8fab81959202ed17b64813b17bef57046a95b65ac2ea9e28ad72c7f186a5f992@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -664,120 +443,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 6 Pavone
-DTSTART:20261007T150000
-DTEND:20261007T170000
-DTSTAMP:20260914T222530Z
-UID:bcd8a4da34336a0ab514079cce4644b0e66d49235f1a5af6bb5748bc6215d342@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 2.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 2.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 6 Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:corso tutoriale DIRITTO COSTITUZIONALE COMPARATO - dott.ssa Minni
-DTSTART:20261007T170000
-DTEND:20261007T190000
-DTSTAMP:20260914T222530Z
-UID:d0b5313c4283d47b0d798cf48d43bad73b69125bec5c5742595e1fca745bb7b1@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:Fonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDipl
- omatiche/orario-lezioni
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: corso tutoriale DIRITTO COSTITUZIONALE COM
- PARATO - dott.ssa Minni
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 2 - Di Serio
-DTSTART:20261008T090000
-DTEND:20261008T110000
-DTSTAMP:20260914T222530Z
-UID:28a340a7fef52bb492ab85f6d6953b8bad0d8b4e5252ab16461b6211e2414858@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 2 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART:20261008T090000
-DTEND:20261008T110000
-DTSTAMP:20260914T222530Z
-UID:e4684fc38ca5d53a89485d402cc75f875cf78f852c4154ed31e3a2d50bfaccf0@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 3.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 3.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 3 - Di Serio
-DTSTART:20261008T110000
-DTEND:20261008T130000
-DTSTAMP:20260914T222530Z
-UID:74750f0d797441a208611f5bfece0509891dbf74293e804b178f602451c446de@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 3 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 4 - Di Serio
-DTSTART:20261008T130000
-DTEND:20261008T150000
-DTSTAMP:20260914T222530Z
-UID:c97e50bbcceac125606228bc268b67aad3f0819ed5678c9847fb83c0a9e50957@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 4 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261008T150000
 DTEND:20261008T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:c792f90889d5539f5b5615ddba7648ca15b330a6fdf7aeb8e5f132f5157c0531@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -794,10 +466,10 @@ BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261008T170000
 DTEND:20261008T190000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:d15f6adee1f63b5fa1d7a03d003de5dc03b129457fd79817ce7327d7f7c7c784@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 4\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -811,30 +483,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:corso tutoriale SOCIOLOGIA DEI PROCESSI CULTURALI - dott. Andolfo
-DTSTART:20261008T170000
-DTEND:20261008T190000
-DTSTAMP:20260914T222530Z
-UID:1bf0dd488ab9806af54e13138c63c6887458921d1019bc484862cf6c2279e6ec@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:Fonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDipl
- omatiche/orario-lezioni
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: corso tutoriale SOCIOLOGIA DEI PROCESSI CU
- LTURALI - dott. Andolfo
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261009T110000
 DTEND:20261009T130000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:db6989f165c9dd2d762d96e0ed60c67400018b2a676ebd06b7ed6c87ae589019@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 6\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -851,10 +506,10 @@ BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261009T130000
 DTEND:20261009T150000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:0dea2710700040a5c109875ee33d160f75f0e8feb8a7d165993d547971ece253@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 4\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -868,121 +523,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART:20261009T150000
-DTEND:20261009T170000
-DTSTAMP:20260914T222530Z
-UID:405b5e33931c9518a491f2ff39c77b399dfbe3ea989f61100978b043f79729d7@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.3\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.3\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 5 - Pavone
-DTSTART:20261012T090000
-DTEND:20261012T110000
-DTSTAMP:20260914T222530Z
-UID:52664fe7988d903eadac8cfd3ad6e9b0005da3ba299e807d5e76da0e049d6339@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corri
- doni\, 20 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternaz
- ionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 5 - Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 1 - Di Serio
-DTSTART:20261012T090000
-DTEND:20261012T110000
-DTSTAMP:20260914T222530Z
-UID:7cbe20893ea737cfe0ea585a49d1b2cd251e72111c7a58bf04f353081e05c139@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 2.1\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 2.1\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 1 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 2 - Di Serio
-DTSTART:20261012T110000
-DTEND:20261012T130000
-DTSTAMP:20260914T222530Z
-UID:eae6787cfe297d4191f8e6a26ef33fbb803eaaa8c58cb7f2116641b7976709bd@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corri
- doni\, 20 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternaz
- ionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 2 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 6 Pavone
-DTSTART:20261012T110000
-DTEND:20261012T130000
-DTSTAMP:20260914T222530Z
-UID:6667c6a1abcec9de3085492b3bb05bf85a06a9f596c448099613aff3fb43afe1@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 6 Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 3 - Di Serio
-DTSTART:20261012T130000
-DTEND:20261012T150000
-DTSTAMP:20260914T222530Z
-UID:653f3cee0f6f501580fdeacc8d0898c07763a3b40443ef01ae22fb972326aa3f@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 3 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261012T150000
 DTEND:20261012T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:4176b3c46aa86a8286c17ed829e52b19dee0d2964bfb78a735a78862e3bffd63@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -996,69 +543,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:corso tutoriale - Storia internazionale dell'età contemporanea- d
- ott. Guzzo
-DTSTART:20261012T170000
-DTEND:20261012T190000
-DTSTAMP:20260914T222530Z
-UID:be90c6dfaf93f998ba9ea918ffe49bbe3aa270aac793c8c7462fa26701e97589@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 2.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 2.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: corso tutoriale - Storia internazionale de
- ll'età contemporanea- dott. Guzzo
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 4 - Di Serio
-DTSTART:20261013T090000
-DTEND:20261013T110000
-DTSTAMP:20260914T222530Z
-UID:06be1bb72cbe8968ab323bc136871b99b236c709c4ca29629dfeb98d9195b5cb@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 3.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 3.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 4 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 5 - Pavone
-DTSTART:20261013T090000
-DTEND:20261013T110000
-DTSTAMP:20260914T222530Z
-UID:c5c04b42115599b2c3efcfaf76d5509e85450b9a25a218b077d7a16c8f437608@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 5 - Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261013T110000
 DTEND:20261013T130000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:0af1fccb4f7c130f2e8dbfe36ab0006fbf70c89977759430b628ca08c7dff3fd@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -1072,31 +563,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 1 - Di Serio
-DTSTART:20261013T130000
-DTEND:20261013T150000
-DTSTAMP:20260914T222530Z
-UID:e33dfaa632536b0f248b3df0e4459231239e3758f97d9bf3b4b8ac66b0290ff4@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 1 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261013T150000
 DTEND:20261013T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:0db30e82b923a236ab2ed55d1c32cd1a8c2453733907d21a1b0aea487506328f@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -1113,10 +586,10 @@ BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261013T170000
 DTEND:20261013T190000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:bec1c758ce7bc3473b9a9628dacd818334d3040183a50edcd17f967763f0b52e@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -1133,10 +606,10 @@ BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261014T090000
 DTEND:20261014T110000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:fba5049632a18f0d30f3ca1f01ec3ddbdd46c23d1497941dd94fecc6bccc91a9@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -1150,120 +623,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 6 Pavone
-DTSTART:20261014T150000
-DTEND:20261014T170000
-DTSTAMP:20260914T222530Z
-UID:78d3affc703fdb4f61e0479be18c02ca61e913583500370f2be145f082522d8d@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 2.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 2.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 6 Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:corso tutoriale DIRITTO COSTITUZIONALE COMPARATO - dott.ssa Minni
-DTSTART:20261014T170000
-DTEND:20261014T190000
-DTSTAMP:20260914T222530Z
-UID:d00907fdddd5e8820454a67b7798c93ba3ddc4e88d81527c2f8a1309e7fb065a@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:Fonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDipl
- omatiche/orario-lezioni
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: corso tutoriale DIRITTO COSTITUZIONALE COM
- PARATO - dott.ssa Minni
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 2 - Di Serio
-DTSTART:20261015T090000
-DTEND:20261015T110000
-DTSTAMP:20260914T222530Z
-UID:0de8bc9c78f9e3fd85a4a570bdefce585f524821e607d3602b5e9ebc5fa8e15b@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 2 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART:20261015T090000
-DTEND:20261015T110000
-DTSTAMP:20260914T222530Z
-UID:e7433e6a5698918272fdd218529959903057eba0be140c7bdd12dc5fc7df8a46@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 3.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 3.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 3 - Di Serio
-DTSTART:20261015T110000
-DTEND:20261015T130000
-DTSTAMP:20260914T222530Z
-UID:34e7c65a384fe7a4d86ff1645fe1f34199347476ed1485a8b7e5aa58592bcdae@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 3 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 4 - Di Serio
-DTSTART:20261015T130000
-DTEND:20261015T150000
-DTSTAMP:20260914T222530Z
-UID:f80197d05aa130e3b28e30891d19ff43300e6d3aa04b833f2b1431281b8a8ed7@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 4 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261015T150000
 DTEND:20261015T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:a472657bf7eb8268795a4972c0bdc026220f347d06f06f8039573991bd6fe1db@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -1280,10 +646,10 @@ BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261015T170000
 DTEND:20261015T190000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:7ca5e4a856a2713faf636708bcb45c56c7edfe563667c3a417ba1aea687c7e2d@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 4\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -1297,30 +663,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:corso tutoriale SOCIOLOGIA DEI PROCESSI CULTURALI - dott. Andolfo
-DTSTART:20261015T170000
-DTEND:20261015T190000
-DTSTAMP:20260914T222530Z
-UID:b99c6f4ab0146a026a404afee6141a21858c4199943fbe17be2384174d3878c5@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:Fonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDipl
- omatiche/orario-lezioni
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: corso tutoriale SOCIOLOGIA DEI PROCESSI CU
- LTURALI - dott. Andolfo
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261016T110000
 DTEND:20261016T130000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:8ce19d342c7963780f127f03c3b7d10f6cd7b7953432b28c6fb24372d7317e8d@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 6\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -1337,10 +686,10 @@ BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261016T130000
 DTEND:20261016T150000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:de6a6a6a5d8dfc83434adf6a0bd4cd4002300055fb9f92c81db266d00eae31db@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 6\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -1354,121 +703,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART:20261016T150000
-DTEND:20261016T170000
-DTSTAMP:20260914T222530Z
-UID:c2bc2c677ebfae6913b23b4699670297b21b45e36b1d45eeaf1743a83d3627a3@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.3\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.3\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 5 - Pavone
-DTSTART:20261019T090000
-DTEND:20261019T110000
-DTSTAMP:20260914T222530Z
-UID:9e70a8140acaebcbc3b5aa70904e5b32e1e7baf1bba58ebe2dd390059876284e@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corri
- doni\, 20 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternaz
- ionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 5 - Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 1 - Di Serio
-DTSTART:20261019T090000
-DTEND:20261019T110000
-DTSTAMP:20260914T222530Z
-UID:367d1d727bfca489ff9c7e77b3499697106eeaeabf065107269b11e627004f48@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 2.1\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 2.1\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 1 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 2 - Di Serio
-DTSTART:20261019T110000
-DTEND:20261019T130000
-DTSTAMP:20260914T222530Z
-UID:1eaa21f0a3d73e60e9892fb74c422ba811aa464742b514cd89d2cb5f2270f5e4@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corri
- doni\, 20 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternaz
- ionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 2 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 6 Pavone
-DTSTART:20261019T110000
-DTEND:20261019T130000
-DTSTAMP:20260914T222530Z
-UID:c77aadc351c5e93855e1fa7f4029ab7499c4f05c5151d80da88bc47c712b5fdb@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 6 Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 3 - Di Serio
-DTSTART:20261019T130000
-DTEND:20261019T150000
-DTSTAMP:20260914T222530Z
-UID:61aef3532a37779d6044d5a5bc4d333c2731d7b496a8f90c367d120ce0f2270e@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 3 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261019T150000
 DTEND:20261019T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:08aa37206b17b7325641300b7166dd90c0fc05ee2bf50906d36c447814df2cf0@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -1482,49 +723,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 4 - Di Serio
-DTSTART:20261020T090000
-DTEND:20261020T110000
-DTSTAMP:20260914T222530Z
-UID:defb6e9596768228966232c427bbcd2b9922f1b7bd7292e48df60bae0b5643e0@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 3.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 3.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 4 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 5 - Pavone
-DTSTART:20261020T090000
-DTEND:20261020T110000
-DTSTAMP:20260914T222530Z
-UID:30bf3ac532ebe6fedf73100393438ba6f5d5da3300d7cc1a421cc6e770e74f72@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 5 - Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261020T110000
 DTEND:20261020T130000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:f984ae12af16889d10eafa0f9e0c75c971669accddf9de8787e785a2f67f756e@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -1538,31 +743,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 1 - Di Serio
-DTSTART:20261020T130000
-DTEND:20261020T150000
-DTSTAMP:20260914T222530Z
-UID:5859d575308dae0e12ca47bafeb287e439836fe50c1c06ff75c05cf524c6981c@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 1 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261020T150000
 DTEND:20261020T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:5004de861b7238a706aa2ef190c0c42be543b6387702cd0d5d235e57a6442a17@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -1579,10 +766,10 @@ BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261020T170000
 DTEND:20261020T190000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:f2506b04d58624914557888cc4380b6f4fc58364d4d412ae2c95d1563200dfdf@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -1599,10 +786,10 @@ BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261021T090000
 DTEND:20261021T110000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:3550aa5363dc25a08d922161ea4a8f79442ef1850ba6d0e87d039a1146ea9a05@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -1616,103 +803,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 6 Pavone
-DTSTART:20261021T150000
-DTEND:20261021T170000
-DTSTAMP:20260914T222530Z
-UID:3ad5a1bf0191fb764fb4c1f0d3c0af7666ce2b4ebeb2c63794b1d49e769a2e9c@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 2.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 2.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 6 Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 2 - Di Serio
-DTSTART:20261022T090000
-DTEND:20261022T110000
-DTSTAMP:20260914T222530Z
-UID:15d66b27910f550f0ce3c21c3a6cbc4f2a579fdfbea0366ff9de3fb9e7b9634f@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 2 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART:20261022T090000
-DTEND:20261022T110000
-DTSTAMP:20260914T222530Z
-UID:6ab8622b4344ff6f36f7bbe17f702c015248d635e0bd8b5758c90b6542363b54@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 3.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 3.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 3 - Di Serio
-DTSTART:20261022T110000
-DTEND:20261022T130000
-DTSTAMP:20260914T222530Z
-UID:b96d825bdbad583b5c1109a0a0115a2d78867abe7b35a0fafe299c66bfff94c2@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 3 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 4 - Di Serio
-DTSTART:20261022T130000
-DTEND:20261022T150000
-DTSTAMP:20260914T222530Z
-UID:af0365e40c5bc1c7c66fffb83cff03c31b429ba255830a01c66711f44cfc64c7@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 4 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261022T150000
 DTEND:20261022T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:1ff7769d3983253aeca91411de5f4f2bcbde55ec4f378e2fa6e6d60b8ddae370@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -1729,10 +826,10 @@ BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261022T170000
 DTEND:20261022T190000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:df75678dd50aebd56d384693e6d6f43b4469799b3f609e8b4acce531b1c696f3@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 4\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -1746,30 +843,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:corso tutoriale SOCIOLOGIA DEI PROCESSI CULTURALI - dott. Andolfo
-DTSTART:20261022T170000
-DTEND:20261022T190000
-DTSTAMP:20260914T222530Z
-UID:127462bd3472a78e0ea41333f4bdbf7a775d22608dc63c02fb01c2dc74d975ed@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:Fonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDipl
- omatiche/orario-lezioni
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: corso tutoriale SOCIOLOGIA DEI PROCESSI CU
- LTURALI - dott. Andolfo
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261023T090000
 DTEND:20261023T130000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:d538877c04c92af51c1c85614558d41babb2d8ef858418e5a788a15f407d06bf@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 6\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nNote: convegno\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternaz
  ionaliDiplomatiche/orario-lezioni
@@ -1786,10 +866,10 @@ BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261023T130000
 DTEND:20261023T150000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:81a66052b526a75f650d1a813d8d68f6e9f5b28acef94202321e14d8ac616b2c@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 6\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -1803,121 +883,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART:20261023T150000
-DTEND:20261023T170000
-DTSTAMP:20260914T222530Z
-UID:7925f9c73652b9d31844dfdb5b84242d01269d40176f341a69fa46991fd2d60e@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.3\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.3\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 5 - Pavone
-DTSTART:20261026T090000
-DTEND:20261026T110000
-DTSTAMP:20260914T222530Z
-UID:3a4ea422cf9758476f44d160aea70b1042b949f0ae5ca5c432db488e47f9600a@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corri
- doni\, 20 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternaz
- ionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 5 - Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 1 - Di Serio
-DTSTART:20261026T090000
-DTEND:20261026T110000
-DTSTAMP:20260914T222530Z
-UID:e517e5b22b1a2950a0ef8cbc2c1082ce1e16006b55ef4b63204a49db261e4686@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 2.1\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 2.1\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 1 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 2 - Di Serio
-DTSTART:20261026T110000
-DTEND:20261026T130000
-DTSTAMP:20260914T222530Z
-UID:b6853019a4108d0066682e3972933e39eee8612657923caf168fd6055d7332a1@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corri
- doni\, 20 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternaz
- ionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 2 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 6 Pavone
-DTSTART:20261026T110000
-DTEND:20261026T130000
-DTSTAMP:20260914T222530Z
-UID:0aa34b78fa14666276b6494697554048ca40cdf870c8923131d1ecbc42f402b1@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 6 Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 3 - Di Serio
-DTSTART:20261026T130000
-DTEND:20261026T150000
-DTSTAMP:20260914T222530Z
-UID:0a0f13f404f344ce1256ff277adfb233304565f8a94c88db98f4af9a6372ff88@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 3 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261026T150000
 DTEND:20261026T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:4581dfe4c24e173aca898e3d318e5cb6c4d469c8101bb248ec974646e536d936@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -1931,69 +903,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:corso tutoriale - Storia internazionale dell'età contemporanea- d
- ott. Guzzo
-DTSTART:20261026T170000
-DTEND:20261026T190000
-DTSTAMP:20260914T222530Z
-UID:520dafe671326b454b5b76b192a6f5f939e0a57029b3bd7e7a822838131e2aaa@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: corso tutoriale - Storia internazionale de
- ll'età contemporanea- dott. Guzzo
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 4 - Di Serio
-DTSTART:20261027T090000
-DTEND:20261027T110000
-DTSTAMP:20260914T222530Z
-UID:89100d5c483b907dad5d34d9f1152ea05c39b7ce16548c70afcde68994013a39@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 3.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 3.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 4 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 5 - Pavone
-DTSTART:20261027T090000
-DTEND:20261027T110000
-DTSTAMP:20260914T222530Z
-UID:60bec285c2525d6bb30264bdb7fa45cb03a3208b1ea18a4e1cb7250bed1dce23@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 5 - Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261027T110000
 DTEND:20261027T130000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:a91116996d4afd3d8be2bb81372ea9f5ab2f082a5c0719e83b3ee6552791d9a0@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -2007,31 +923,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 1 - Di Serio
-DTSTART:20261027T130000
-DTEND:20261027T150000
-DTSTAMP:20260914T222530Z
-UID:ad6d52c728ac16f408db79936d190bafb46013351ba2825524a9bfc1f9c08e71@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 1 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261027T150000
 DTEND:20261027T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:ab99fd775eab7a918faa842bd54c7f78076d5cd063b0b39a6f207d447c13e238@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -2048,10 +946,10 @@ BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261027T170000
 DTEND:20261027T190000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:3a13812c466e630fcdca2dd1afd9c48bc918d79f2ca6a5c1a022753973fadd82@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -2068,10 +966,10 @@ BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261028T090000
 DTEND:20261028T110000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:537b91b6b3b9bc298d29064bc1eaf72c534373a13f3d2500da6b9887f0f429b8@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -2085,120 +983,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 6 Pavone
-DTSTART:20261028T150000
-DTEND:20261028T170000
-DTSTAMP:20260914T222530Z
-UID:f947612f1a0304d0411f9dcb1f2daa351378200c022bd90e9a4bd800895fcb28@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 2.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 2.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 6 Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:corso tutoriale DIRITTO COSTITUZIONALE COMPARATO - dott.ssa Minni
-DTSTART:20261028T170000
-DTEND:20261028T190000
-DTSTAMP:20260914T222530Z
-UID:16d441a7fbc96372b13dcbd6c48688d739fcfe53106d17b3cf25c7e5a7f50932@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:Fonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDipl
- omatiche/orario-lezioni
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: corso tutoriale DIRITTO COSTITUZIONALE COM
- PARATO - dott.ssa Minni
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 2 - Di Serio
-DTSTART:20261029T090000
-DTEND:20261029T110000
-DTSTAMP:20260914T222530Z
-UID:3d4dcba5a31d8ddff91e2a09b73c3bc86695df481fe14d9a2df75c503eff92b2@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 2 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART:20261029T090000
-DTEND:20261029T110000
-DTSTAMP:20260914T222530Z
-UID:1f41518c66fcfbce5766e382d827fd87293733ee49736a44a06324204113ba02@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 3.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 3.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 3 - Di Serio
-DTSTART:20261029T110000
-DTEND:20261029T130000
-DTSTAMP:20260914T222530Z
-UID:72bc9977e5bb612d520fa1f20e4ab93bbd3bfec2d52b2c94e38ac6dc59853b74@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 3 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 4 - Di Serio
-DTSTART:20261029T130000
-DTEND:20261029T150000
-DTSTAMP:20260914T222530Z
-UID:589e21ea233ffc464fcc89b472dadde18b2a9c1acbcf85eafd3d5f3b982ab9f5@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 4 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261029T150000
 DTEND:20261029T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:9203d102ff95a88983f11bf71b7c3361911e1e8f90639e68c8018cc6bdaaf050@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -2215,10 +1006,10 @@ BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261029T170000
 DTEND:20261029T190000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:7e20a0bba88428f9b41d953bdc3f2383f623299ec18c78f255c7186501e87a8c@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 4\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -2232,30 +1023,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:corso tutoriale SOCIOLOGIA DEI PROCESSI CULTURALI - dott. Andolfo
-DTSTART:20261029T170000
-DTEND:20261029T190000
-DTSTAMP:20260914T222530Z
-UID:4215bb2c63eccb9fd05773f60e28bee3199e47638d41da7ee96b6ed20b0d5cb4@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:Fonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDipl
- omatiche/orario-lezioni
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: corso tutoriale SOCIOLOGIA DEI PROCESSI CU
- LTURALI - dott. Andolfo
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261030T110000
 DTEND:20261030T130000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:1a360ac0e69a8d162b66468929d0fe80b0440c88ea23ac08a259c464c3234d8c@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 6\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -2272,10 +1046,10 @@ BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261030T130000
 DTEND:20261030T150000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:34931b0073c8cdbbe802d99e3849e1b0f7f7e5834712f5246872a9cfae935a64@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 6\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -2289,121 +1063,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART:20261030T150000
-DTEND:20261030T170000
-DTSTAMP:20260914T222530Z
-UID:ee44646bc4de643cb85f8a1826aa4d1c99232eebd5502141ba728321233ed4d9@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.3\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.3\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 5 - Pavone
-DTSTART:20261102T090000
-DTEND:20261102T110000
-DTSTAMP:20260914T222530Z
-UID:f97884ef9b764789683deadd0b0592cf489a733d13bbc3b80e5878f812bb6138@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corri
- doni\, 20 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternaz
- ionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 5 - Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 1 - Di Serio
-DTSTART:20261102T090000
-DTEND:20261102T110000
-DTSTAMP:20260914T222530Z
-UID:423c5800f407826c0289d112f43ea27b8138531fb7dfc57444a76019a16129d6@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 2.1\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 2.1\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 1 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 2 - Di Serio
-DTSTART:20261102T110000
-DTEND:20261102T130000
-DTSTAMP:20260914T222530Z
-UID:ee38fd5b7bfe1778fba182b17b483b24abde5ab045ea15ba43133ce47f65a943@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corri
- doni\, 20 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternaz
- ionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 2 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 6 Pavone
-DTSTART:20261102T110000
-DTEND:20261102T130000
-DTSTAMP:20260914T222530Z
-UID:00fe858ade3b62c65cf72a6787eacb9464b0fb08b6611d12496f50c99124fdf4@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 6 Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 3 - Di Serio
-DTSTART:20261102T130000
-DTEND:20261102T150000
-DTSTAMP:20260914T222530Z
-UID:21012efa25e5862b271c32e2903d406bbdeaa547b1921c7099474b6e4ebe2160@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 3 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261102T150000
 DTEND:20261102T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:072bfffc49b83759854695be8d68e51f9b5211a19ced0f9cecffb1892de5ab46@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -2417,69 +1083,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:corso tutoriale - Storia internazionale dell'età contemporanea- d
- ott. Guzzo
-DTSTART:20261102T170000
-DTEND:20261102T190000
-DTSTAMP:20260914T222530Z
-UID:815b251ab0d00412736ba8724ecd0917a7ece9c6c7a8f82d359a39567326d32b@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: corso tutoriale - Storia internazionale de
- ll'età contemporanea- dott. Guzzo
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 4 - Di Serio
-DTSTART:20261103T090000
-DTEND:20261103T110000
-DTSTAMP:20260914T222530Z
-UID:9ff0e1612aebccb0f823c6eff9522f120bf308b129b948ab12bc1b73ac0e91b6@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 3.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 3.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 4 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 5 - Pavone
-DTSTART:20261103T090000
-DTEND:20261103T110000
-DTSTAMP:20260914T222530Z
-UID:122bbb39dac8ca60654d020727ec9ea0791bae8e23ba7589feb06ae5abc71055@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 5 - Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261103T110000
 DTEND:20261103T130000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:90199e063eccca286dd277c76b572f3db56c5017ba6c4e4c5cc1668d74df6697@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -2493,31 +1103,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 1 - Di Serio
-DTSTART:20261103T130000
-DTEND:20261103T150000
-DTSTAMP:20260914T222530Z
-UID:2116208843bfb4ba206ad2ca1c5a6b2c84380e6925b426616a33eddba867a49a@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 1 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261103T150000
 DTEND:20261103T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:a3ce7116b9d09c761172ba489e1f677e1b1a9f25b63596ee8410a2164836f109@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -2534,10 +1126,10 @@ BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261103T170000
 DTEND:20261103T190000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:fd213f6f3cac4966ea424a6f9606da62143b9beb399267450ea8b6750556b64e@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -2554,10 +1146,10 @@ BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261104T090000
 DTEND:20261104T110000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:e482f5c985e66cace7a91d3d3055e133971df917097bd3841e06201cfc7a1fe0@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -2571,120 +1163,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 6 Pavone
-DTSTART:20261104T150000
-DTEND:20261104T170000
-DTSTAMP:20260914T222530Z
-UID:abd93fe7fa47cd00cee170511453f095b3d7257d0fad3275dc71c417fe685421@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 2.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 2.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 6 Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:corso tutoriale DIRITTO COSTITUZIONALE COMPARATO - dott.ssa Minni
-DTSTART:20261104T170000
-DTEND:20261104T190000
-DTSTAMP:20260914T222530Z
-UID:b6451da4bcd9eb781d6b511dd0f7caa47da174e9fb39c34a4d346da1b280bbf9@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:Fonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDipl
- omatiche/orario-lezioni
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: corso tutoriale DIRITTO COSTITUZIONALE COM
- PARATO - dott.ssa Minni
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 2 - Di Serio
-DTSTART:20261105T090000
-DTEND:20261105T110000
-DTSTAMP:20260914T222530Z
-UID:dd84ed0810839147f15190f0aa9580d1b4c92338fe27cb61427e57ba899a208f@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 2 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART:20261105T090000
-DTEND:20261105T110000
-DTSTAMP:20260914T222530Z
-UID:ea979b28acb9585f31c8115775590035b9bb64023da37dccc66e9fa0ae3634da@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 3.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 3.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 3 - Di Serio
-DTSTART:20261105T110000
-DTEND:20261105T130000
-DTSTAMP:20260914T222530Z
-UID:0fa2df1e53a82b059d2f81b14a70c0bc2166d32aa3cbc646646b4540f3f4c5f2@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 3 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 4 - Di Serio
-DTSTART:20261105T130000
-DTEND:20261105T150000
-DTSTAMP:20260914T222530Z
-UID:e8fedb9c44f680bff4f9087cd996404ac7c363bb3f038e08f3ba2ad961fc4689@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 4 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261105T150000
 DTEND:20261105T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:1b8294f4fd3adb04c0dd20ae013585b503b06fb22fb7d915f94545945e8149d1@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -2701,10 +1186,10 @@ BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261105T170000
 DTEND:20261105T190000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:ef18e75900bbe31ac0feadffff6a2bbf83136b4c6a8fcd97916c8c8bac944bff@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 4\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -2721,10 +1206,10 @@ BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261106T110000
 DTEND:20261106T130000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:f5cf83430c63349a5102b3a1eabbe7fd8eaf216f2af90c9a97dbc23cb1b7179f@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 6\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -2741,10 +1226,10 @@ BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261106T130000
 DTEND:20261106T150000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:0df5c3cd91c9b0bd947c6cdca4be862cc445f57cf923e48970e5533d77ffe4d8@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 6\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -2758,121 +1243,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART:20261106T150000
-DTEND:20261106T170000
-DTSTAMP:20260914T222530Z
-UID:decb564f51f3e2120f4089ef3df0db690cec94364f42a88bc1a7b360ca7c63ca@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.3\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.3\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 5 - Pavone
-DTSTART:20261109T090000
-DTEND:20261109T110000
-DTSTAMP:20260914T222530Z
-UID:5b9ab5548bd69abc80af1f08191f657342d6dffab4b76a10c020949572a14fc8@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corri
- doni\, 20 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternaz
- ionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 5 - Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 1 - Di Serio
-DTSTART:20261109T090000
-DTEND:20261109T110000
-DTSTAMP:20260914T222530Z
-UID:8964e28ed96cef08f7892c909337bdd9bbebd96eb333e5b25663f8c5e5d7b762@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 2.1\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 2.1\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 1 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 2 - Di Serio
-DTSTART:20261109T110000
-DTEND:20261109T130000
-DTSTAMP:20260914T222530Z
-UID:58f479e18ee64c2441c8357ad6e7ae5aeaf4449128034956bc87841ae798bef7@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corri
- doni\, 20 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternaz
- ionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 2 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 6 Pavone
-DTSTART:20261109T110000
-DTEND:20261109T130000
-DTSTAMP:20260914T222530Z
-UID:4d71213bcff57d5e4edaf5e52d27cb433f28e4f9e0be764b310d8e1b895b93b1@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 6 Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 3 - Di Serio
-DTSTART:20261109T130000
-DTEND:20261109T150000
-DTSTAMP:20260914T222530Z
-UID:566bf7365a2a598fdde552bfc6769a86c9e2c16c2affd279a52080724fb0adea@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 3 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261109T150000
 DTEND:20261109T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:2c3bcf97cf63f11f0d93cb7e12fcaa69743838e6bf28b7bd62e4f87bd1ac5705@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -2886,69 +1263,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:corso tutoriale - Storia internazionale dell'età contemporanea- d
- ott. Guzzo
-DTSTART:20261109T170000
-DTEND:20261109T190000
-DTSTAMP:20260914T222530Z
-UID:10379a4002c1a47b0f01289ac8e39c164eda48ae72dc7b04b4680a871704d259@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: corso tutoriale - Storia internazionale de
- ll'età contemporanea- dott. Guzzo
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 4 - Di Serio
-DTSTART:20261110T090000
-DTEND:20261110T110000
-DTSTAMP:20260914T222530Z
-UID:d23e37f00ff0101dd773a64c61f4f62acafa2a9acea0e0d23b851cca53122183@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 3.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 3.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 4 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 5 - Pavone
-DTSTART:20261110T090000
-DTEND:20261110T110000
-DTSTAMP:20260914T222530Z
-UID:94a61ea3618364f199e3604c3a00c306841406cc7c0847a9e0c6f85994004b26@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 5 - Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261110T110000
 DTEND:20261110T130000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:33be01728c48134218a2e374297c1a6cc9c8d00380a1d985e0b6dbb7669aa6c7@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -2962,31 +1283,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 1 - Di Serio
-DTSTART:20261110T130000
-DTEND:20261110T150000
-DTSTAMP:20260914T222530Z
-UID:2b75f34222a5f08143fd3c08347d3379a54782d61434a219f3de4622167382b8@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 1 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261110T150000
 DTEND:20261110T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:8ac65bcad34ba71a1884f263bcc8c4b9ed43536f4328276352fdae22e0cb4bae@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -3003,10 +1306,10 @@ BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261110T170000
 DTEND:20261110T190000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:b16fb35d27fb732394106a20cd46777831e02ff8e8dabb916ebf56a731a88dd5@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -3023,10 +1326,10 @@ BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261111T090000
 DTEND:20261111T110000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:c4c58a2cf1deae31a450729f6a47dc99cc44d0a47df45269f632bb4dcf2586c4@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -3040,120 +1343,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 6 Pavone
-DTSTART:20261111T150000
-DTEND:20261111T170000
-DTSTAMP:20260914T222530Z
-UID:e7014f513be4fadf8fec48244edf33164acce7af6bd3af591edfca99d415a497@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 2.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 2.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 6 Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:corso tutoriale DIRITTO COSTITUZIONALE COMPARATO - dott.ssa Minni
-DTSTART:20261111T170000
-DTEND:20261111T190000
-DTSTAMP:20260914T222530Z
-UID:2f46c2f69cc2372b13aa534092156dd98f5e7cfb70e6e85449a08eb6cb7b437b@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:Fonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDipl
- omatiche/orario-lezioni
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: corso tutoriale DIRITTO COSTITUZIONALE COM
- PARATO - dott.ssa Minni
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 2 - Di Serio
-DTSTART:20261112T090000
-DTEND:20261112T110000
-DTSTAMP:20260914T222530Z
-UID:047661cbac86298a952c504742a5fb2db6566bd62cdee93585d684871604ae6e@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 2 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART:20261112T090000
-DTEND:20261112T110000
-DTSTAMP:20260914T222530Z
-UID:9b0b7f942b75d6f2d3fb700928659ece9f44757791908a372649e54125d1ee8e@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 3.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 3.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 3 - Di Serio
-DTSTART:20261112T110000
-DTEND:20261112T130000
-DTSTAMP:20260914T222530Z
-UID:0bf1f79b8217a00d64324327b82dda8599b6ca6aa326670f7339d4d7dfde37e7@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 3 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 4 - Di Serio
-DTSTART:20261112T130000
-DTEND:20261112T150000
-DTSTAMP:20260914T222530Z
-UID:f182653aac711533f274db1ef41f1595ced1d564bffecd2a8ad9ce56348f1367@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 4 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261112T150000
 DTEND:20261112T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:de2ad9b0b2a41ead648fc9165a42779c676232d5b2bb5df15a7a495d271e72de@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -3170,10 +1366,10 @@ BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261112T170000
 DTEND:20261112T190000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:48ffd87aaf85eae8b459dafa2df18028f69ebdb74dc155c2ecdf695194abb857@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 4\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -3190,10 +1386,10 @@ BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261113T110000
 DTEND:20261113T130000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:278eaa8cf77f1107ebcca7fcdb632be2dc51c48c232e61559e9f8109816fee3b@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 6\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -3210,10 +1406,10 @@ BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261113T130000
 DTEND:20261113T150000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:bfbf08a7b02b92c48a520c15037ca3877aec7c8d27c53b13545423f599a6731b@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 6\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -3227,121 +1423,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART:20261113T150000
-DTEND:20261113T170000
-DTSTAMP:20260914T222530Z
-UID:508936063da259bcdaf61fb36091e16dcf1b9bb213296a06e8b9c43959b03219@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.3\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.3\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 5 - Pavone
-DTSTART:20261116T090000
-DTEND:20261116T110000
-DTSTAMP:20260914T222530Z
-UID:930fc41cd1c50600ebdeebf5f946cd7a1161b7de9d4f30732cb562bb40dc79f5@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corri
- doni\, 20 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternaz
- ionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 5 - Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 1 - Di Serio
-DTSTART:20261116T090000
-DTEND:20261116T110000
-DTSTAMP:20260914T222530Z
-UID:ab3eb9a863f443183241fb29242b59fa87b3eafa23d922e3e5a088adbb029e7d@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 2.1\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 2.1\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 1 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 2 - Di Serio
-DTSTART:20261116T110000
-DTEND:20261116T130000
-DTSTAMP:20260914T222530Z
-UID:01f981c54534a751cc2e85a4b9516ada67f7099c269b9f24def8601eb2259dbe@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corri
- doni\, 20 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternaz
- ionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 2 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 6 Pavone
-DTSTART:20261116T110000
-DTEND:20261116T130000
-DTSTAMP:20260914T222530Z
-UID:eac15e7049827271291bd70e16219f79b6bdf222e29883a356c775bea7ffd855@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.1\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.1\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 6 Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 3 - Di Serio
-DTSTART:20261116T130000
-DTEND:20261116T150000
-DTSTAMP:20260914T222530Z
-UID:5e82bf8e5a0d963cc92114044cda2ac7fe8cb97b59f9f7c4f4584d6219be0075@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 3 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261116T150000
 DTEND:20261116T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:0e9841b85898d5cc38182322715a3d44d2ebd4e1a99ae7815e783c447209f459@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -3355,69 +1443,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:corso tutoriale - Storia internazionale dell'età contemporanea- d
- ott. Guzzo
-DTSTART:20261116T170000
-DTEND:20261116T190000
-DTSTAMP:20260914T222530Z
-UID:f2d7389b06f4a7af9727f1b9cba10af022646b3aa1c96a9b191a9a38bd6b65e5@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: corso tutoriale - Storia internazionale de
- ll'età contemporanea- dott. Guzzo
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 4 - Di Serio
-DTSTART:20261117T090000
-DTEND:20261117T110000
-DTSTAMP:20260914T222530Z
-UID:7e3f4e4daeba6d3a0ea7b4da6ede75778ab7e696808fdb971c4fffe0c4b66c10@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 3.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 3.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 4 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 5 - Pavone
-DTSTART:20261117T090000
-DTEND:20261117T110000
-DTSTAMP:20260914T222530Z
-UID:0082bab8b2e8d5fde3a450241e0b63dbe0bea3d1c87eae5b89c33e093c7a1b5e@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 5 - Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261117T110000
 DTEND:20261117T130000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:f5c7ea7a22bf2dfdfbeebcf7a6f983a7fcff3df2b0773a219f250bb56aec5825@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -3431,31 +1463,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 1 - Di Serio
-DTSTART:20261117T130000
-DTEND:20261117T150000
-DTSTAMP:20260914T222530Z
-UID:bd1e5a8d9b66d4667c1d1df765f120d63d8fbe34dca1e7351d1d5745ff04c809@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 1 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261117T150000
 DTEND:20261117T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:fb97e6a22b6623725bf9a54477592cf64af2fb9dbdbf869eb6224ff632932257@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -3472,10 +1486,10 @@ BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261117T170000
 DTEND:20261117T190000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:8707b9edb009690cf3ead984ea200a36a7f71a2e24afd44f67b174f8b7c14b72@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -3492,10 +1506,10 @@ BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261118T090000
 DTEND:20261118T110000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:4f5692d735e98622c74350af87688ced2787ab2032867d524bb3ebc2da76e429@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -3509,103 +1523,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 6 Pavone
-DTSTART:20261118T150000
-DTEND:20261118T170000
-DTSTAMP:20260914T222530Z
-UID:56d493b2e1bd2b6bd4a7c95d37a93254d2e0ca896164fe996c5abc64696c0269@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 2.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 2.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 6 Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 2 - Di Serio
-DTSTART:20261119T090000
-DTEND:20261119T110000
-DTSTAMP:20260914T222530Z
-UID:5a12d5b5aa52fc4f1631c74ca3b350073a775b5493a786c2945e25804f9bde92@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 2 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART:20261119T090000
-DTEND:20261119T110000
-DTSTAMP:20260914T222530Z
-UID:09389a00127cb585135fb767d9f6a4270c0781b32a73025fc638dc28d90b9e3e@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 3.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 3.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 3 - Di Serio
-DTSTART:20261119T110000
-DTEND:20261119T130000
-DTSTAMP:20260914T222530Z
-UID:e31fe606dc11ea3599ce484fc2091785184828d6cbd59fdfd398e9d96eb71224@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 3 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 4 - Di Serio
-DTSTART:20261119T130000
-DTEND:20261119T150000
-DTSTAMP:20260914T222530Z
-UID:a89ab24909a8828cb66b88dcba3baf8f9077807a553c5699d985ed4d98abd296@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 4 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261119T150000
 DTEND:20261119T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:c058e844dad9faeba6eef4940ab9422f8aaf99a05e5d3b2aa3e06fd7db1defc0@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -3622,10 +1546,10 @@ BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261119T170000
 DTEND:20261119T190000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:ea43fb13f4be30db8b3f41bd873fbe673162ea4a599252a48442952e3a227063@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 4\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -3639,31 +1563,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:corso tutoriale SOCIOLOGIA DEI PROCESSI CULTURALI - dott. Andolfo
-DTSTART:20261119T170000
-DTEND:20261119T190000
-DTSTAMP:20260914T222530Z
-UID:b7f337540d517fd98f9770843de014e74bf868b2af8ee6965f2212b37826e3ba@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:Note: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplo
- matiche/tutor-del-corso-di-studio\n\nFonte: https://corsi.unibo.it/laurea/
- ScienzeInternazionaliDiplomatiche/orario-lezioni
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: corso tutoriale SOCIOLOGIA DEI PROCESSI CU
- LTURALI - dott. Andolfo
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261120T110000
 DTEND:20261120T130000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:6d270212087ff61b8ee7d2489086b8cfd7a7d4753ee68939661ce195202669e0@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 6\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -3680,10 +1586,10 @@ BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261120T130000
 DTEND:20261120T150000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:5ab1982c8677a859b034ed461cdb2aedecd5a31fa8aba5109604464fe755aad2@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 6\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -3697,121 +1603,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART:20261120T150000
-DTEND:20261120T170000
-DTSTAMP:20260914T222530Z
-UID:7005f619c20d393bc46ea151faf034eb5cc6ed5c17166949151af1f01d2be901@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.3\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.3\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 5 - Pavone
-DTSTART:20261123T090000
-DTEND:20261123T110000
-DTSTAMP:20260914T222530Z
-UID:6572e8c99d371c2c203858372b4c755494f88142fcf64f14a8aeb6803310537a@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corri
- doni\, 20 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternaz
- ionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 5 - Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 1 - Di Serio
-DTSTART:20261123T090000
-DTEND:20261123T110000
-DTSTAMP:20260914T222530Z
-UID:ddbc4281a4003138c69ef8a43476ab0ee7effb2c3564d0a3d7699b8c4c9908dd@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 2.1\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 2.1\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 1 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 2 - Di Serio
-DTSTART:20261123T110000
-DTEND:20261123T130000
-DTSTAMP:20260914T222530Z
-UID:fed205168f32e18426652f1cba4b9d6c1170fe2eab1e26c0054ecc04f039de05@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corri
- doni\, 20 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternaz
- ionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 2 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 6 Pavone
-DTSTART:20261123T110000
-DTEND:20261123T130000
-DTSTAMP:20260914T222530Z
-UID:b8d3ec4e7cc40be1c76123ee7261c5cd3de8b6211c894d56716f03528b4e40dd@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.1\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.1\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 6 Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 3 - Di Serio
-DTSTART:20261123T130000
-DTEND:20261123T150000
-DTSTAMP:20260914T222530Z
-UID:b9fc3b4fab332a48f84b599e37c2c34fdc255b3ffbc337c11f2830fc2c9af9e2@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 3 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261123T150000
 DTEND:20261123T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:20edf735d1ab6b74d1df8ee836dfd56265492946f9a1601f2eb6148622c8d4f4@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -3825,69 +1623,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:corso tutoriale - Storia internazionale dell'età contemporanea- d
- ott. Guzzo
-DTSTART:20261123T170000
-DTEND:20261123T190000
-DTSTAMP:20260914T222530Z
-UID:998503260bf7e1bede5f0dfc644d4fb0ce759e9295817652761e6b3ece9adbef@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: corso tutoriale - Storia internazionale de
- ll'età contemporanea- dott. Guzzo
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 4 - Di Serio
-DTSTART:20261124T090000
-DTEND:20261124T110000
-DTSTAMP:20260914T222530Z
-UID:03df43fcb1d43af5d9fa2f2f70c3de2646e2a4ce1c87e0ca2201fb62851f8205@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 3.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 3.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 4 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 5 - Pavone
-DTSTART:20261124T090000
-DTEND:20261124T110000
-DTSTAMP:20260914T222530Z
-UID:ac1b34f901ee9e307585cf79b84f029d4fc8d909e9025c25b56d11a6d0863045@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 5 - Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261124T110000
 DTEND:20261124T130000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:77012e84645a9a6305a833bc57361730aff00c45a775c50cea948fb978e20cf1@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -3901,31 +1643,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 1 - Di Serio
-DTSTART:20261124T130000
-DTEND:20261124T150000
-DTSTAMP:20260914T222530Z
-UID:66c23b167969dda7d208e49ae9e52922699b109bf629a1b6dc65ad50105ce0a9@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 1 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261124T170000
 DTEND:20261124T190000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:8073557252ece271a97a5b7dce7fe65a38c19115360bbd43a7028d0c8ee393ae@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -3942,10 +1666,10 @@ BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261125T090000
 DTEND:20261125T110000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:cf65b97b71597a6fb291d60834aca10e4400bd5959aa1c38c2e0cebdf7df5b50@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -3959,120 +1683,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 6 Pavone
-DTSTART:20261125T150000
-DTEND:20261125T170000
-DTSTAMP:20260914T222530Z
-UID:76b0807263cfcb03c76e7df9182256494e60f494003cf9d0c5d3602da27efb98@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 2.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 2.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 6 Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:corso tutoriale DIRITTO COSTITUZIONALE COMPARATO - dott.ssa Minni
-DTSTART:20261125T170000
-DTEND:20261125T190000
-DTSTAMP:20260914T222530Z
-UID:98ed5a2ac9deba5e240385471631b1eafe0e0c13c251c13f0419e47bb2258c76@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:Fonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDipl
- omatiche/orario-lezioni
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: corso tutoriale DIRITTO COSTITUZIONALE COM
- PARATO - dott.ssa Minni
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 2 - Di Serio
-DTSTART:20261126T090000
-DTEND:20261126T110000
-DTSTAMP:20260914T222530Z
-UID:92d16f1cd31910701df4b11dd6d026ead24fd56221d5ee89bc29095130eaa3f3@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 2 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART:20261126T090000
-DTEND:20261126T110000
-DTSTAMP:20260914T222530Z
-UID:4409679863b9e71958aa07305fa5b14f5f8710c3b617f526c324fd15af462743@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 3.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 3.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 3 - Di Serio
-DTSTART:20261126T110000
-DTEND:20261126T130000
-DTSTAMP:20260914T222530Z
-UID:8a1ad2b5e376da8ccece242f818b4bc859cfa072f3e1271d9051db162f6fe2d9@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 3 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 4 - Di Serio
-DTSTART:20261126T130000
-DTEND:20261126T150000
-DTSTAMP:20260914T222530Z
-UID:c2adda3697b331f91bcbb0d42b4a741ed9ef8f2b0849e88eae61572ac6e58552@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 4 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261126T150000
 DTEND:20261126T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:a2eb2374dd09263674dcc93f8dc50fdab1f11ac0ecf1d679f1dcd7967cc4c7b2@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -4089,10 +1706,10 @@ BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261127T110000
 DTEND:20261127T130000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:4b17b5b1e46d26d2ced7a44017c8333b85355908e7dee89109e840b98766658c@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 6\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -4106,121 +1723,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART:20261127T150000
-DTEND:20261127T170000
-DTSTAMP:20260914T222530Z
-UID:e189a924b7e7eaf0925302d65f999d3ef8e725d22706700974b087dc9ffd62f1@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.3\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.3\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 5 - Pavone
-DTSTART:20261130T090000
-DTEND:20261130T110000
-DTSTAMP:20260914T222530Z
-UID:93c3c86bb1a2fe66b5ea9ea91fbf1b032cc2f8629d3b9ef203702d8be24ea807@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corri
- doni\, 20 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternaz
- ionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 5 - Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 1 - Di Serio
-DTSTART:20261130T090000
-DTEND:20261130T110000
-DTSTAMP:20260914T222530Z
-UID:3c321a775d81b7394cc621cb60e0ddc4625da6d7c7ce038b0fad2f1c186f3c19@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 2.1\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 2.1\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 1 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 2 - Di Serio
-DTSTART:20261130T110000
-DTEND:20261130T130000
-DTSTAMP:20260914T222530Z
-UID:f9566cf451142bfea79b4612a4272c32d341eefd1cd5e3e68e42e36135bd084b@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corri
- doni\, 20 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternaz
- ionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 2 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 6 Pavone
-DTSTART:20261130T110000
-DTEND:20261130T130000
-DTSTAMP:20260914T222530Z
-UID:e08903c1cb5c4024306dbe3404efbfe021625661f57c41bb625fd364bc66ed89@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.1\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.1\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 6 Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 3 - Di Serio
-DTSTART:20261130T130000
-DTEND:20261130T150000
-DTSTAMP:20260914T222530Z
-UID:2cca70784eb71f78bd74ca547a6e42df0cae5e524202f56c2486d808037d14bd@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 3 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261130T150000
 DTEND:20261130T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:dd3c708425a6ca173a0d6750a711df90b11b7d4de6bdf66d0ecb275ec312e42f@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -4234,69 +1743,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:corso tutoriale - Storia internazionale dell'età contemporanea- d
- ott. Guzzo
-DTSTART:20261130T170000
-DTEND:20261130T190000
-DTSTAMP:20260914T222530Z
-UID:0b62db150cae0b423bcb7cc7a5724cdd87eb4ed913b87afe7502e648f4af3f2b@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: corso tutoriale - Storia internazionale de
- ll'età contemporanea- dott. Guzzo
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 4 - Di Serio
-DTSTART:20261201T090000
-DTEND:20261201T110000
-DTSTAMP:20260914T222530Z
-UID:1fe11936fde4373535e9a4ffca2082e705949098c1f2247eac93a99bead7ad3a@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 3.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 3.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 4 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 5 - Pavone
-DTSTART:20261201T090000
-DTEND:20261201T110000
-DTSTAMP:20260914T222530Z
-UID:101b22aebfb2342d1d353e2016fc2b22a0c0bde17cf62bd0a296d47e18887624@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 5 - Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261201T110000
 DTEND:20261201T130000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:3d718228bcd1fff5ea91cd3f59736c46869f5cbbbc125d9fbd69cd42f75193f0@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -4310,31 +1763,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 1 - Di Serio
-DTSTART:20261201T130000
-DTEND:20261201T150000
-DTSTAMP:20260914T222530Z
-UID:c5f6a79c5607905251c3703bce3aaef43b1f443144e6704c3dbc38cb1be1ab16@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 1 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261201T150000
 DTEND:20261201T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:aa052c4efe4b4fd0afa1e4c648b57fd9510dba6928bf7b13df9f39d5c864a9bb@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -4351,10 +1786,10 @@ BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261201T170000
 DTEND:20261201T190000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:0cc2f1836a0e6d42ab0715d660a21cec714b822ff1e595129520378ced31a820@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -4371,10 +1806,10 @@ BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261202T090000
 DTEND:20261202T110000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:1b7c5c2938594e8751cb18c0b3e2561d8501c0ddf0ae0e56d2a0f3a6184b7950@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -4388,120 +1823,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 6 Pavone
-DTSTART:20261202T150000
-DTEND:20261202T170000
-DTSTAMP:20260914T222530Z
-UID:4ed8f3bc3f20bedbef83540c930f48c870e739ab2a4690bebf1508c50354aec2@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 2.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 2.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 6 Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:corso tutoriale DIRITTO COSTITUZIONALE COMPARATO - dott.ssa Minni
-DTSTART:20261202T170000
-DTEND:20261202T190000
-DTSTAMP:20260914T222530Z
-UID:d86670f9d981036bd0953cc8451746db8b0fe075cce97c2a9fe94cedfa5fbacb@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:Fonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDipl
- omatiche/orario-lezioni
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: corso tutoriale DIRITTO COSTITUZIONALE COM
- PARATO - dott.ssa Minni
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 2 - Di Serio
-DTSTART:20261203T090000
-DTEND:20261203T110000
-DTSTAMP:20260914T222530Z
-UID:f7908b3677dea044f35f641fec6a40fa181745153a6ec6db1cc0d85b532c3e2f@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 2 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART:20261203T090000
-DTEND:20261203T110000
-DTSTAMP:20260914T222530Z
-UID:33aae01d2aeb1c46bcd9cd5b6b4cf43d2ec333b7f33d88396ecb1904cd75c963@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 3.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 3.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 3 - Di Serio
-DTSTART:20261203T110000
-DTEND:20261203T130000
-DTSTAMP:20260914T222530Z
-UID:761aaee49d65d9e533546b69cf4a0242b7d35879f07c33e1bdb03e9c0dc6d76d@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 3 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 4 - Di Serio
-DTSTART:20261203T130000
-DTEND:20261203T150000
-DTSTAMP:20260914T222530Z
-UID:a1a6975acf9923d66f36ed2b5a4cbfc54799c95cc78e2a76fab7e2242e365575@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 4 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261203T150000
 DTEND:20261203T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:1b7b7d7e41e1a2db7a0adf2efc495a473cbb2840a0f817696493e05f7eb615df@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -4518,10 +1846,10 @@ BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261203T170000
 DTEND:20261203T190000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:d94e5066952102edc7b50a2935cdf296c5fee2c47932f09677ed437ed81dcc17@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 4\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -4538,10 +1866,10 @@ BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261204T110000
 DTEND:20261204T130000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:8152b87240c8bded66f85c74d506846b35d07ea0a0e72cc60a290899ceb95d75@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 6\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -4558,10 +1886,10 @@ BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261204T130000
 DTEND:20261204T150000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:dc6aa77ded302e37d3ddf954fc271909f9c1f69c19bc119b1473b80ff8b5618c@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 6\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -4575,31 +1903,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART:20261204T150000
-DTEND:20261204T170000
-DTSTAMP:20260914T222530Z
-UID:05aea3de13675da71b31d4085a9ab83aa316b76b8f6d7a33e9b1b58cb8cafd16@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.3\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.3\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261209T090000
 DTEND:20261209T110000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:a24216ded369ba73f5e7467a14929a5339baad800c6d3f71e2d751a3766fa0aa@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -4613,85 +1923,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 2 - Di Serio
-DTSTART:20261210T090000
-DTEND:20261210T110000
-DTSTAMP:20260914T222530Z
-UID:75ee98b795742ae59b661437f1fb0648bd4e610f60de86bcee1a49f9148bbcef@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 2 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART:20261210T090000
-DTEND:20261210T110000
-DTSTAMP:20260914T222530Z
-UID:67609f6d8824b4c93a69082da98e4ce3d006156804321e84e62f0327d134b527@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 2.3\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 2.3\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 3 - Di Serio
-DTSTART:20261210T110000
-DTEND:20261210T130000
-DTSTAMP:20260914T222530Z
-UID:0322f0e1209073ca55dd14c5330e96db7c659bf954831775ec6a11b988f7e30d@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 3 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 4 - Di Serio
-DTSTART:20261210T130000
-DTEND:20261210T150000
-DTSTAMP:20260914T222530Z
-UID:979bacb9fcfd42eedb668edf3cb8be69ffeb0a417024bb15fd3c189ba7c3e102@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 4 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261210T150000
 DTEND:20261210T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:a0e8887a69a66e89eaaf524cdc08adbd252c4e3423775e4c79af9c07f10ce82b@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -4708,10 +1946,10 @@ BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261210T170000
 DTEND:20261210T190000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:948595f8a2cfbecc09764507ab16e591474aed981b36348eb86bbd6201ce2f30@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 4\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -4728,10 +1966,10 @@ BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261211T110000
 DTEND:20261211T130000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:74618a1a82b5a9c6b9f87a0cfa44e747077e35fb33fe1dc05ea6f8f489fab947@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 6\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -4748,10 +1986,10 @@ BEGIN:VEVENT
 SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
 DTSTART:20261211T130000
 DTEND:20261211T150000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:d91670f0b8df6768873bfcc14e81df5385a88d6a9255e0fd27aa661af2f48b5f@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA DIDATTICA 1 LABIC\, Via Giacomo della Tor
  re\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazion
  aliDiplomatiche/orario-lezioni
@@ -4765,121 +2003,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART:20261211T150000
-DTEND:20261211T170000
-DTSTAMP:20260914T222530Z
-UID:721b66779470b1ec1b0be141bea5b92e4e4b8f6d9bc3573975449172df12e1bb@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 2.3\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 2.3\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 5 - Pavone
-DTSTART:20261214T090000
-DTEND:20261214T110000
-DTSTAMP:20260914T222530Z
-UID:0f0b9c3d14f5c9d2bcabacbd921a1226af1c3dc0eb68280a18c78a147a5d823f@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corri
- doni\, 20 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternaz
- ionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 5 - Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 1 - Di Serio
-DTSTART:20261214T090000
-DTEND:20261214T110000
-DTSTAMP:20260914T222530Z
-UID:ec85c3f8e7ec2b694d2662ffcafbd9a60f9b09173c98d6b2f841e3d22710c28f@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 2.1\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 2.1\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 1 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 2 - Di Serio
-DTSTART:20261214T110000
-DTEND:20261214T130000
-DTSTAMP:20260914T222530Z
-UID:990ddb5f90447de76d57aff3b9919d26b771572e23e0f064c0c7745bb9272441@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corri
- doni\, 20 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternaz
- ionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 25 GIUSEPPE FARNETI\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 2 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 6 Pavone
-DTSTART:20261214T110000
-DTEND:20261214T130000
-DTSTAMP:20260914T222530Z
-UID:03a348ebbec6363624f53f2bc331bb1babbd151442e9000189faeb6b85bb64fa@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.1\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.1\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 6 Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 3 - Di Serio
-DTSTART:20261214T130000
-DTEND:20261214T150000
-DTSTAMP:20260914T222530Z
-UID:40f5b548a4c22147767d6b0d1002fb0d1efdf9d1d90189ca20f913494a1cb29e@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 3 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART:20261214T150000
 DTEND:20261214T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:150bdcf82e89873443de0c1a69b8876d5cad040c05c2234857a1d6071ee84c65@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -4893,49 +2023,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 4 - Di Serio
-DTSTART:20261215T090000
-DTEND:20261215T110000
-DTSTAMP:20260914T222530Z
-UID:2f74e59693205d8855482f82f03f09c3570d544bf5ede649fb40f33d4df7c621@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 3.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 3.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 4 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 5 - Pavone
-DTSTART:20261215T090000
-DTEND:20261215T110000
-DTSTAMP:20260914T222530Z
-UID:d17f635ff94706d1d419150a9d412bd7dcd98d5369ee0af184c1df0e0247d9a9@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 5 - Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261215T110000
 DTEND:20261215T130000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:fcc00b4466dc3a21ab96350231dcf07641ce09af97727d5607c5d94bedecf768@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -4949,121 +2043,13 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 1 - Di Serio
-DTSTART:20261215T130000
-DTEND:20261215T150000
-DTSTAMP:20260914T222530Z
-UID:c68502e4a73a369450170a4b5beff48a4ff24e1a3f58c3c5b941b736e8dab0ee@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.4\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.4\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 1 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 6 Pavone
-DTSTART:20261216T150000
-DTEND:20261216T170000
-DTSTAMP:20260914T222530Z
-UID:93baee69643ea6956cad38a098b9f7921ff21d043b603b6258d272118373258c@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 2.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 2.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 6 Pavone
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 2 - Di Serio
-DTSTART:20261217T090000
-DTEND:20261217T110000
-DTSTAMP:20260914T222530Z
-UID:01a8eb384f8b190a76a66dc6ab60f9aeb95ab5299fdb8dbe0526aff61bab290d@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 2 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART:20261217T090000
-DTEND:20261217T110000
-DTSTAMP:20260914T222530Z
-UID:973e6c2ddfe6f1cfcf89b311c1962004b8bcca2e8f5e2560f56fc818c2c71d1c@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 3.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 3.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 3 - Di Serio
-DTSTART:20261217T110000
-DTEND:20261217T130000
-DTSTAMP:20260914T222530Z
-UID:59c696d6a5231fab9475cebf8eef0039cd0e83ab87cd5611601da8b57543d361@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 3 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 4 - Di Serio
-DTSTART:20261217T130000
-DTEND:20261217T150000
-DTSTAMP:20260914T222530Z
-UID:46eabad831014979ad08bcdbca3e3ac71557d489a1edba472f96eebca6c0b3c0@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA CARLOTTA BARTOLINI\, Via Giacomo della To
- rre\, 5 - Forlì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazio
- naliDiplomatiche/orario-lezioni
-LOCATION:AULA CARLOTTA BARTOLINI\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 4 - Di Serio
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261217T150000
 DTEND:20261217T170000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:2a9fe926dcf6adaa85ea1634dfb8d6e8ff601b6d40ee4683ee63137e81d82733@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 12\, Viale Filippo Corridoni\, 20 - Forl
  ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
  he/orario-lezioni
@@ -5080,10 +2066,10 @@ BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART:20261218T110000
 DTEND:20261218T130000
-DTSTAMP:20260914T222530Z
+DTSTAMP:20260914T223245Z
 UID:936d1ba462da93ca3186f78e6e53f78ab77eb5e92f4d49ac253df574307796d7@unibo
- -sid-v13
-SEQUENCE:1789424730
+ -sid-v15
+SEQUENCE:1789425165
 DESCRIPTION:📍 Posizione: AULA 6\, Viale Filippo Corridoni\, 20 - Forlì
  \n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche
  /orario-lezioni
@@ -5093,24 +2079,6 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Promemoria lezione: SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) 
  / (AL) lez.
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART:20261218T150000
-DTEND:20261218T170000
-DTSTAMP:20260914T222530Z
-UID:1302ba42994a67e0335f579eb59d46a262b33735a435469bbce905aa71c1af56@unibo
- -sid-v13
-SEQUENCE:1789424730
-DESCRIPTION:📍 Posizione: AULA 1.3\, Via Giacomo della Torre\, 5 - Forl
- ì\n\nFonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
- he/orario-lezioni
-LOCATION:AULA 1.3\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
