@@ -12,7 +12,7 @@ OUTPUT_ICS_FILE = "orario_sid_anno1_AL.ics"
 
 def is_target_event(item):
     """Filtra i canali M-Z, i corsi tutoriali e specificamente i LABORATORI di inglese."""
-    raw_title = item.get('title', '')
+    raw_title = item.get('title', '') or ''
     note = item.get('note', '') or ''
     text_upper = f"{raw_title} {note}".upper()
 
@@ -91,15 +91,28 @@ def extract_full_location(item):
 
     return indirizzo or ""
 
+def parse_iso_datetime(dt_str):
+    if not dt_str:
+        return None
+    try:
+        return datetime.fromisoformat(str(dt_str).replace(" ", "T"))
+    except Exception:
+        return None
+
 def generate_stable_uid(item, loc):
     """Versione v15 per aggiornare la visualizzazione su Apple Calendar."""
     raw_id = f"{item.get('cod_modulo', '')}_{item.get('start', '')}_{item.get('end', '')}_{item.get('title', '')}_{loc}"
     return hashlib.sha256(raw_id.encode('utf-8')).hexdigest() + "@unibo-sid-v15"
 
 def build_calendar():
-    response = requests.get(UNIBO_JSON_URL, headers={'User-Agent': 'Mozilla/5.0'})
-    response.raise_for_status()
-    events_data = response.json()
+    # PROTEZIONE SERVER UNIBO: Gestisce 503 e downtime senza far fallire la workflow
+    try:
+        response = requests.get(UNIBO_JSON_URL, headers={'User-Agent': 'Mozilla/5.0'}, timeout=20)
+        response.raise_for_status()
+        events_data = response.json()
+    except Exception as e:
+        print(f"⚠️ Server UNIBO temporaneamente offline ({e}). Mantenuto il file .ics esistente.")
+        return
 
     cal = Calendar()
     cal.add('prodid', '-//UNIBO SID 1 Anno A-L Sync//NONSGML v1.0//IT')
@@ -112,55 +125,61 @@ def build_calendar():
     current_timestamp = int(now_utc.timestamp())
 
     for item in events_data:
-        if not is_target_event(item):
+        try:
+            if not is_target_event(item):
+                continue
+
+            raw_title = item.get('title', '')
+            note = item.get('note', '').strip() if item.get('note') else ''
+
+            base_title = clean_title(raw_title)
+            location_str = extract_full_location(item)
+
+            start_dt = parse_iso_datetime(item.get('start'))
+            end_dt = parse_iso_datetime(item.get('end'))
+            if not start_dt or not end_dt:
+                continue
+
+            event = Event()
+            event.add('summary', base_title)
+            event.add('dtstart', start_dt)
+            event.add('dtend', end_dt)
+            event.add('dtstamp', now_utc)
+            event.add('sequence', current_timestamp)
+
+            if location_str:
+                event.add('location', location_str)
+
+            event.add('uid', generate_stable_uid(item, location_str))
+
+            docente = item.get('docente', '').strip() if item.get('docente') else ''
+            if docente:
+                organizer = vCalAddress('mailto:docente@unibo.it')
+                organizer.params['cn'] = vText(docente)
+                event['organizer'] = organizer
+
+            alarm = Alarm()
+            alarm.add('action', 'DISPLAY')
+            alarm.add('description', f"Promemoria lezione: {base_title}")
+            alarm.add('trigger', timedelta(minutes=-30))
+            event.add_component(alarm)
+
+            desc_lines = []
+            if location_str:
+                desc_lines.append(f"📍 Posizione: {location_str}")
+            if note:
+                desc_lines.append(f"Note: {note}")
+                
+            source_url = "https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni"
+            if source_url not in note:
+                desc_lines.append(f"Fonte: {source_url}")
+                
+            event.add('description', "\n\n".join(desc_lines))
+
+            cal.add_component(event)
+        except Exception as e:
+            print(f"Errore salto evento singolo: {e}")
             continue
-
-        raw_title = item.get('title', '')
-        note = item.get('note', '').strip() if item.get('note') else ''
-
-        base_title = clean_title(raw_title)
-        location_str = extract_full_location(item)
-
-        event = Event()
-        event.add('summary', base_title)
-
-        start_dt = datetime.fromisoformat(item['start'])
-        end_dt = datetime.fromisoformat(item['end'])
-        event.add('dtstart', start_dt)
-        event.add('dtend', end_dt)
-        event.add('dtstamp', now_utc)
-        event.add('sequence', current_timestamp)
-
-        if location_str:
-            event.add('location', location_str)
-
-        event.add('uid', generate_stable_uid(item, location_str))
-
-        docente = item.get('docente', '').strip() if item.get('docente') else ''
-        if docente:
-            organizer = vCalAddress('mailto:docente@unibo.it')
-            organizer.params['cn'] = vText(docente)
-            event['organizer'] = organizer
-
-        alarm = Alarm()
-        alarm.add('action', 'DISPLAY')
-        alarm.add('description', f"Promemoria lezione: {base_title}")
-        alarm.add('trigger', timedelta(minutes=-30))
-        event.add_component(alarm)
-
-        desc_lines = []
-        if location_str:
-            desc_lines.append(f"📍 Posizione: {location_str}")
-        if note:
-            desc_lines.append(f"Note: {note}")
-            
-        source_url = "https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni"
-        if source_url not in note:
-            desc_lines.append(f"Fonte: {source_url}")
-            
-        event.add('description', "\n\n".join(desc_lines))
-
-        cal.add_component(event)
 
     with open(OUTPUT_ICS_FILE, 'wb') as f:
         f.write(cal.to_ical())
