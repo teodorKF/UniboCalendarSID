@@ -11,7 +11,7 @@ UNIBO_JSON_URL = f"https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatic
 OUTPUT_ICS_FILE = "orario_sid_anno1_AL.ics"
 
 def is_target_event(item):
-    """Filtra i canali M-Z, i corsi tutoriali e specificamente i LABORATORI di inglese."""
+    """Filtra Canale M-Z, tutoriali, OFA ed esclude i laboratori di inglese tranne il Lab 7."""
     raw_title = item.get('title', '') or ''
     note = item.get('note', '') or ''
     text_upper = f"{raw_title} {note}".upper()
@@ -24,9 +24,24 @@ def is_target_event(item):
     if re.search(r'TUTOR', text_upper):
         return False
 
-    # 3. Esclusione SPECIFICA per i Laboratori di Lingua Inglese (es. "LAB LINGUA INGLESE N...")
-    if re.search(r'\bLAB(?:ORATORIO)?\b.*INGLESE', text_upper) or re.search(r'\bLAB\..*INGLESE', text_upper):
+    # 3. Esclusione OFA (Obblighi Formativi Aggiuntivi)
+    if re.search(r'\bOFA\b', text_upper):
         return False
+
+    # 4. Laboratori di Lingua Inglese: mantieni SOLO il Lab 7 / Gruppo 7
+    is_english_lab = bool(
+        re.search(r'\bLAB(?:ORATORIO)?\b.*INGLESE', text_upper) or 
+        re.search(r'\bLAB\..*INGLESE', text_upper) or 
+        re.search(r'LINGUA INGLESE.*LAB', text_upper)
+    )
+    if is_english_lab:
+        is_lab_7 = bool(
+            re.search(r'\b7\b', text_upper) or 
+            re.search(r'GRUPPO\s*7\b', text_upper) or 
+            re.search(r'N\.?\s*7\b', text_upper)
+        )
+        if not is_lab_7:
+            return False
 
     return True
 
@@ -100,9 +115,9 @@ def parse_iso_datetime(dt_str):
         return None
 
 def generate_stable_uid(item, loc):
-    """Versione v15 per aggiornare la visualizzazione su Apple Calendar."""
+    """Versione v16 per forzare il refresh immediato dei nuovi filtri su Apple Calendar."""
     raw_id = f"{item.get('cod_modulo', '')}_{item.get('start', '')}_{item.get('end', '')}_{item.get('title', '')}_{loc}"
-    return hashlib.sha256(raw_id.encode('utf-8')).hexdigest() + "@unibo-sid-v15"
+    return hashlib.sha256(raw_id.encode('utf-8')).hexdigest() + "@unibo-sid-v16"
 
 def build_calendar():
     # PROTEZIONE SERVER UNIBO: Gestisce 503 e downtime senza far fallire la workflow
