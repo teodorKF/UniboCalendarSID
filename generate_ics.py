@@ -1,6 +1,9 @@
 import re
+import time
 import hashlib
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 from icalendar import Calendar, Event, Alarm
@@ -8,15 +11,75 @@ from icalendar import Calendar, Event, Alarm
 ROME_TZ = ZoneInfo("Europe/Rome")
 now_rome = datetime.now(ROME_TZ)
 
-# Mantiene 30 giorni passati e 300 giorni futuri
-start_date = (now_rome - timedelta(days=30)).strftime("%Y-%m-%d")
-end_date = (now_rome + timedelta(days=300)).strftime("%Y-%m-%d")
-
-UNIBO_JSON_URL = (
-    "https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni/"
-    f"@@orario_reale_json?anno=1&curricula=B10-000&start={start_date}&end={end_date}"
-)
+BASE_JSON_URL = "https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni/@@orario_reale_json"
 OUTPUT_ICS_FILE = "orario_sid_anno1_AL.ics"
+
+
+def fetch_unibo_events():
+    """Scarica gli eventi a blocchi di 45 giorni per evitare il blocco/timeout HTTP 503 di UNIBO."""
+    session = requests.Session()
+    retries = Retry(
+        total=4,
+        backoff_factor=2,
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=["GET"]
+    )
+    session.mount("https://", HTTPAdapter(max_retries=retries))
+
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Referer": "https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni",
+        "X-Requested-With": "XMLHttpRequest",
+        "Connection": "keep-alive"
+    }
+
+    # Finestra totale: da -15 giorni fa a +180 giorni (6 mesi coprono tutto il semestre/anno)
+    start_window = now_rome - timedelta(days=15)
+    end_window = now_rome + timedelta(days=180)
+    chunk_days = 45
+
+    all_events = []
+    seen_keys = set()
+    current_start = start_window
+    successful_chunks = 0
+
+    while current_start < end_window:
+        current_end = min(current_start + timedelta(days=chunk_days), end_window)
+        s_str = current_start.strftime("%Y-%m-%d")
+        e_str = current_end.strftime("%Y-%m-%d")
+
+        params = {
+            "anno": "1",
+            "curricula": "B10-000",
+            "start": s_str,
+            "end": e_str
+        }
+
+        try:
+            resp = session.get(BASE_JSON_URL, params=params, headers=headers, timeout=25)
+            resp.raise_for_status()
+            chunk_data = resp.json()
+            if isinstance(chunk_data, list):
+                successful_chunks += 1
+                for ev in chunk_data:
+                    # Evita duplicati ai confini dei blocchi di date
+                    ev_key = f"{ev.get('cod_modulo')}_{ev.get('start')}_{ev.get('end')}_{ev.get('title')}"
+                    if ev_key not in seen_keys:
+                        seen_keys.add(ev_key)
+                        all_events.append(ev)
+            print(f"✅ Blocco {s_str} -> {e_str}: {len(chunk_data)} eventi ricevuti.")
+        except Exception as e:
+            print(f"⚠️ Errore sul blocco {s_str} -> {e_str}: {e}")
+
+        current_start = current_end
+        time.sleep(0.5)  # Piccola pausa gentile per non far scattare il rate-limit UNIBO
+
+    if successful_chunks == 0:
+        raise RuntimeError("Nessun blocco scaricato con successo da UNIBO.")
+
+    return all_events
 
 
 def is_target_event(item):
@@ -41,7 +104,7 @@ def is_target_event(item):
     if re.search(r'ANNULLA|SOSPEN|CANCELL|NON\s+LAVORO|NO\s+LEZIONE', text_upper):
         return False
 
-    # 5. Laboratori di Lingua Inglese: mantieni SOLO il Lab 7 / Gruppo 7 (Regex blindata)
+    # 5. Laboratori di Lingua Inglese: mantieni SOLO il Lab 7 / Gruppo 7
     is_english_lab = bool(
         re.search(r'\bLAB(?:ORATORIO)?\b.*INGLESE', text_upper) or
         re.search(r'\bLAB\..*INGLESE', text_upper) or
@@ -135,16 +198,15 @@ def parse_iso_datetime(dt_str):
 
 
 def generate_stable_uid(item, loc, note):
-    """Versione v17: se cambiano orario, aula o note, genera un nuovo UID forzando l'aggiornamento sul telefono."""
+    """Versione v17: aggiorna l'evento se cambiano orario, aula o note."""
     raw_id = f"{item.get('cod_modulo', '')}_{item.get('start', '')}_{item.get('end', '')}_{item.get('title', '')}_{loc}_{note}"
     return hashlib.sha256(raw_id.encode('utf-8')).hexdigest() + "@unibo-sid-v17"
 
 
 def build_calendar():
     try:
-        response = requests.get(UNIBO_JSON_URL, headers={'User-Agent': 'Mozilla/5.0'}, timeout=20)
-        response.raise_for_status()
-        events_data = response.json()
+        events_data = fetch_unibo_events()
+        print(f"📦 Totale eventi unici scaricati: {len(events_data)}")
     except Exception as e:
         print(f"⚠️ Server UNIBO temporaneamente offline ({e}). Mantenuto il file .ics esistente.")
         return
@@ -158,6 +220,7 @@ def build_calendar():
     cal.add('refresh-interval;value=duration', 'PT15M')
 
     events_data.sort(key=lambda x: (x.get('start', ''), x.get('title', '')))
+    added_count = 0
 
     for item in events_data:
         try:
@@ -208,6 +271,7 @@ def build_calendar():
 
             event.add('description', "\n\n".join(desc_lines))
             cal.add_component(event)
+            added_count += 1
 
         except Exception as e:
             print(f"Errore salto evento singolo: {e}")
@@ -215,6 +279,8 @@ def build_calendar():
 
     with open(OUTPUT_ICS_FILE, 'wb') as f:
         f.write(cal.to_ical())
+
+    print(f"✅ File {OUTPUT_ICS_FILE} aggiornato con successo! ({added_count} lezioni valide inserite).")
 
 
 if __name__ == "__main__":
