@@ -9,10 +9,10 @@ permissions:
   contents: write
 
 jobs:
-  update-calendar:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -21,12 +21,13 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install requests icalendar
 
-      - name: Run script
+      - name: Run calendar generator
         run: python generate_ics.py
 
-      - name: Commit and push changes
+      - name: Commit and push updated ICS file
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
