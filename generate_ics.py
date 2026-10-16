@@ -2,16 +2,25 @@ import re
 import hashlib
 import requests
 from datetime import datetime, timedelta, timezone
-from icalendar import Calendar, Event, Alarm, vCalAddress, vText
+from zoneinfo import ZoneInfo
+from icalendar import Calendar, Event, Alarm
 
-start_date = datetime.now().strftime("%Y-%m-%d")
-end_date = (datetime.now() + timedelta(days=300)).strftime("%Y-%m-%d")
+ROME_TZ = ZoneInfo("Europe/Rome")
+now_rome = datetime.now(ROME_TZ)
 
-UNIBO_JSON_URL = f"https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni/@@orario_reale_json?anno=1&curricula=B10-000&start={start_date}&end={end_date}"
+# Mantiene lo storico degli ultimi 30 giorni e guarda avanti di 300 giorni
+start_date = (now_rome - timedelta(days=30)).strftime("%Y-%m-%d")
+end_date = (now_rome + timedelta(days=300)).strftime("%Y-%m-%d")
+
+UNIBO_JSON_URL = (
+    "https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni/"
+    f"@@orario_reale_json?anno=1&curricula=B10-000&start={start_date}&end={end_date}"
+)
 OUTPUT_ICS_FILE = "orario_sid_anno1_AL.ics"
 
+
 def is_target_event(item):
-    """Filtra Canale M-Z, tutoriali, OFA ed esclude i laboratori di inglese tranne il Lab 7."""
+    """Filtra Canale M-Z, tutoriali, OFA, lezioni annullate ed esclude i lab di inglese tranne il Lab 7."""
     raw_title = item.get('title', '') or ''
     note = item.get('note', '') or ''
     text_upper = f"{raw_title} {note}".upper()
@@ -28,22 +37,26 @@ def is_target_event(item):
     if re.search(r'\bOFA\b', text_upper):
         return False
 
-    # 4. Laboratori di Lingua Inglese: mantieni SOLO il Lab 7 / Gruppo 7
+    # 4. Esclusione Lezioni Annullate / Sospese
+    if re.search(r'ANNULLA|SOSPEN|CANCELL|NON\s+LAVORO|NO\s+LEZIONE', text_upper):
+        return False
+
+    # 5. Laboratori di Lingua Inglese: mantieni SOLO il Lab 7 / Gruppo 7
     is_english_lab = bool(
-        re.search(r'\bLAB(?:ORATORIO)?\b.*INGLESE', text_upper) or 
-        re.search(r'\bLAB\..*INGLESE', text_upper) or 
+        re.search(r'\bLAB(?:ORATORIO)?\b.*INGLESE', text_upper) or
+        re.search(r'\bLAB\..*INGLESE', text_upper) or
         re.search(r'LINGUA INGLESE.*LAB', text_upper)
     )
     if is_english_lab:
         is_lab_7 = bool(
-            re.search(r'\b7\b', text_upper) or 
-            re.search(r'GRUPPO\s*7\b', text_upper) or 
-            re.search(r'N\.?\s*7\b', text_upper)
+            re.search(r'(?:LAB(?:\.|ORATORIO)?|GRUPPO|GR\.?|N\.?)\s*7\b', text_upper) or
+            re.search(r'\b7\b', raw_title.upper())
         )
         if not is_lab_7:
             return False
 
     return True
+
 
 def clean_title(title_raw):
     """Pulisce il titolo mantenendo solo il nome del corso."""
@@ -52,6 +65,7 @@ def clean_title(title_raw):
     title = re.sub(r'^\d+_[A-Z0-9\-_]+\s*-\s*', '', title_raw)
     title = re.sub(r'\s*\(\d+\s*CFU\)', '', title)
     return title.strip()
+
 
 def extract_full_location(item):
     """Estrae l'aula e l'indirizzo dal JSON UNIBO."""
@@ -106,21 +120,27 @@ def extract_full_location(item):
 
     return indirizzo or ""
 
+
 def parse_iso_datetime(dt_str):
+    """Converte la stringa ISO in datetime con fuso orario Europe/Rome."""
     if not dt_str:
         return None
     try:
-        return datetime.fromisoformat(str(dt_str).replace(" ", "T"))
+        dt = datetime.fromisoformat(str(dt_str).replace(" ", "T"))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=ROME_TZ)
+        return dt
     except Exception:
         return None
 
-def generate_stable_uid(item, loc):
-    """Versione v16 per forzare il refresh immediato dei nuovi filtri su Apple Calendar."""
-    raw_id = f"{item.get('cod_modulo', '')}_{item.get('start', '')}_{item.get('end', '')}_{item.get('title', '')}_{loc}"
-    return hashlib.sha256(raw_id.encode('utf-8')).hexdigest() + "@unibo-sid-v16"
+
+def generate_stable_uid(item, loc, note):
+    """Versione v17: include anche le note nell'hash così se cambia una nota l'evento si aggiorna."""
+    raw_id = f"{item.get('cod_modulo', '')}_{item.get('start', '')}_{item.get('end', '')}_{item.get('title', '')}_{loc}_{note}"
+    return hashlib.sha256(raw_id.encode('utf-8')).hexdigest() + "@unibo-sid-v17"
+
 
 def build_calendar():
-    # PROTEZIONE SERVER UNIBO: Gestisce 503 e downtime senza far fallire la workflow
     try:
         response = requests.get(UNIBO_JSON_URL, headers={'User-Agent': 'Mozilla/5.0'}, timeout=20)
         response.raise_for_status()
@@ -130,14 +150,15 @@ def build_calendar():
         return
 
     cal = Calendar()
-    cal.add('prodid', '-//UNIBO SID 1 Anno A-L Sync//NONSGML v1.0//IT')
+    cal.add('prodid', '-//UNIBO SID 1 Anno A-L Sync//NONSGML v1.17//IT')
     cal.add('version', '2.0')
     cal.add('x-wr-calname', 'Orario università')
+    cal.add('x-wr-timezone', 'Europe/Rome')
     cal.add('x-published-ttl', 'PT15M')
     cal.add('refresh-interval;value=duration', 'PT15M')
 
-    now_utc = datetime.now(timezone.utc)
-    current_timestamp = int(now_utc.timestamp())
+    # Ordina gli eventi per data di inizio e titolo così l'output .ics è sempre deterministico
+    events_data.sort(key=lambda x: (x.get('start', ''), x.get('title', '')))
 
     for item in events_data:
         try:
@@ -146,6 +167,7 @@ def build_calendar():
 
             raw_title = item.get('title', '')
             note = item.get('note', '').strip() if item.get('note') else ''
+            docente = item.get('docente', '').strip() if item.get('docente') else ''
 
             base_title = clean_title(raw_title)
             location_str = extract_full_location(item)
@@ -159,19 +181,14 @@ def build_calendar():
             event.add('summary', base_title)
             event.add('dtstart', start_dt)
             event.add('dtend', end_dt)
-            event.add('dtstamp', now_utc)
-            event.add('sequence', current_timestamp)
+            # DTSTAMP deterministico basato sull'inizio dell'evento (evita commit inutili ogni 15 min)
+            event.add('dtstamp', start_dt.astimezone(timezone.utc))
+            event.add('sequence', 0)
 
             if location_str:
                 event.add('location', location_str)
 
-            event.add('uid', generate_stable_uid(item, location_str))
-
-            docente = item.get('docente', '').strip() if item.get('docente') else ''
-            if docente:
-                organizer = vCalAddress('mailto:docente@unibo.it')
-                organizer.params['cn'] = vText(docente)
-                event['organizer'] = organizer
+            event.add('uid', generate_stable_uid(item, location_str, note))
 
             alarm = Alarm()
             alarm.add('action', 'DISPLAY')
@@ -180,24 +197,27 @@ def build_calendar():
             event.add_component(alarm)
 
             desc_lines = []
+            if docente:
+                desc_lines.append(f"👨‍🏫 Docente: {docente}")
             if location_str:
                 desc_lines.append(f"📍 Posizione: {location_str}")
             if note:
-                desc_lines.append(f"Note: {note}")
-                
+                desc_lines.append(f"📝 Note: {note}")
+
             source_url = "https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni"
             if source_url not in note:
-                desc_lines.append(f"Fonte: {source_url}")
-                
-            event.add('description', "\n\n".join(desc_lines))
+                desc_lines.append(f"🔗 Fonte: {source_url}")
 
+            event.add('description', "\n\n".join(desc_lines))
             cal.add_component(event)
+
         except Exception as e:
             print(f"Errore salto evento singolo: {e}")
             continue
 
     with open(OUTPUT_ICS_FILE, 'wb') as f:
         f.write(cal.to_ical())
+
 
 if __name__ == "__main__":
     build_calendar()
