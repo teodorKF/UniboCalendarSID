@@ -8,7 +8,7 @@ from icalendar import Calendar, Event, Alarm
 ROME_TZ = ZoneInfo("Europe/Rome")
 now_rome = datetime.now(ROME_TZ)
 
-# Mantiene lo storico degli ultimi 30 giorni e guarda avanti di 300 giorni
+# Mantiene 30 giorni passati e 300 giorni futuri
 start_date = (now_rome - timedelta(days=30)).strftime("%Y-%m-%d")
 end_date = (now_rome + timedelta(days=300)).strftime("%Y-%m-%d")
 
@@ -41,7 +41,7 @@ def is_target_event(item):
     if re.search(r'ANNULLA|SOSPEN|CANCELL|NON\s+LAVORO|NO\s+LEZIONE', text_upper):
         return False
 
-    # 5. Laboratori di Lingua Inglese: mantieni SOLO il Lab 7 / Gruppo 7
+    # 5. Laboratori di Lingua Inglese: mantieni SOLO il Lab 7 / Gruppo 7 (Regex blindata)
     is_english_lab = bool(
         re.search(r'\bLAB(?:ORATORIO)?\b.*INGLESE', text_upper) or
         re.search(r'\bLAB\..*INGLESE', text_upper) or
@@ -49,8 +49,8 @@ def is_target_event(item):
     )
     if is_english_lab:
         is_lab_7 = bool(
-            re.search(r'(?:LAB(?:\.|ORATORIO)?|GRUPPO|GR\.?|N\.?)\s*7\b', text_upper) or
-            re.search(r'\b7\b', raw_title.upper())
+            re.search(r'(?:LAB(?:\.|ORATORIO)?|GRUPPO|GR\.?|N\.?|CANALE|SEZ\.?)\s*7\b', text_upper) or
+            re.search(r'INGLESE\s*[-–]?\s*7\b', text_upper)
         )
         if not is_lab_7:
             return False
@@ -135,7 +135,7 @@ def parse_iso_datetime(dt_str):
 
 
 def generate_stable_uid(item, loc, note):
-    """Versione v17: include anche le note nell'hash così se cambia una nota l'evento si aggiorna."""
+    """Versione v17: se cambiano orario, aula o note, genera un nuovo UID forzando l'aggiornamento sul telefono."""
     raw_id = f"{item.get('cod_modulo', '')}_{item.get('start', '')}_{item.get('end', '')}_{item.get('title', '')}_{loc}_{note}"
     return hashlib.sha256(raw_id.encode('utf-8')).hexdigest() + "@unibo-sid-v17"
 
@@ -157,7 +157,6 @@ def build_calendar():
     cal.add('x-published-ttl', 'PT15M')
     cal.add('refresh-interval;value=duration', 'PT15M')
 
-    # Ordina gli eventi per data di inizio e titolo così l'output .ics è sempre deterministico
     events_data.sort(key=lambda x: (x.get('start', ''), x.get('title', '')))
 
     for item in events_data:
@@ -181,7 +180,6 @@ def build_calendar():
             event.add('summary', base_title)
             event.add('dtstart', start_dt)
             event.add('dtend', end_dt)
-            # DTSTAMP deterministico basato sull'inizio dell'evento (evita commit inutili ogni 15 min)
             event.add('dtstamp', start_dt.astimezone(timezone.utc))
             event.add('sequence', 0)
 
