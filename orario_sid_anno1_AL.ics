@@ -6,46 +6,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT15M
 X-PUBLISHED-TTL:PT15M
 X-WR-TIMEZONE:Europe/Rome
 BEGIN:VEVENT
-SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
-DTSTART;TZID=Europe/Rome:20261006T110000
-DTEND;TZID=Europe/Rome:20261006T130000
-DTSTAMP:20261006T090000Z
-UID:671e6fc592a78364bd052ffba6913133141648652051ca81c88cd0270a4aa9f8@unibo
- -sid-v17
-SEQUENCE:0
-DESCRIPTION:👨‍🏫 Docente: Leonardo Allodi\n\n📍 Posizione: AULA 1
- 2\, Viale Filippo Corridoni\, 20 - Forlì\n\n🔗 Fonte: https://corsi.uni
- bo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 12\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) 
- / (AL) lez.
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
-DTSTART;TZID=Europe/Rome:20261006T170000
-DTEND;TZID=Europe/Rome:20261006T190000
-DTSTAMP:20261006T150000Z
-UID:84bf31f6c3749a3099a82f47f4202e172fae73fd37e370d7096b0379b8e12126@unibo
- -sid-v17
-SEQUENCE:0
-DESCRIPTION:👨‍🏫 Docente: Silvia Bagni\n\n📍 Posizione: AULA 12\,
-  Viale Filippo Corridoni\, 20 - Forlì\n\n📝 Note: qualora i posti in au
- la 12TH non fossero sufficienti\, è possibile seguire la lezione da aula 
- 10TH\n\n🔗 Fonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDip
- lomatiche/orario-lezioni
-LOCATION:AULA 12\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: DIRITTO COSTITUZIONALE COMPARATO / (A-L) /
-  (1) Modulo 1
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART;TZID=Europe/Rome:20261007T090000
 DTEND;TZID=Europe/Rome:20261007T110000
