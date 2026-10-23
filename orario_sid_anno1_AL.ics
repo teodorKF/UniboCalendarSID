@@ -6,62 +6,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT15M
 X-PUBLISHED-TTL:PT15M
 X-WR-TIMEZONE:Europe/Rome
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART;TZID=Europe/Rome:20261008T090000
-DTEND;TZID=Europe/Rome:20261008T110000
-DTSTAMP:20261008T070000Z
-UID:5bf27da510569050edf0ad6184fdd81f9002c8ebd1b1acd875fcf449b0cbf643@unibo
- -sid-v17
-SEQUENCE:0
-DESCRIPTION:📍 Posizione: AULA 3.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\n🔗 Fonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplo
- matiche/orario-lezioni
-LOCATION:AULA 3.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
-DTSTART;TZID=Europe/Rome:20261008T150000
-DTEND;TZID=Europe/Rome:20261008T170000
-DTSTAMP:20261008T130000Z
-UID:da794e61b1f9b0cde244330e12b99a3136c711426d327e1e7e7c156f08fccc60@unibo
- -sid-v17
-SEQUENCE:0
-DESCRIPTION:👨‍🏫 Docente: Leonardo Allodi\n\n📍 Posizione: AULA 1
- 2\, Viale Filippo Corridoni\, 20 - Forlì\n\n🔗 Fonte: https://corsi.uni
- bo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 12\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) 
- / (AL) lez.
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (1) Modulo 1
-DTSTART;TZID=Europe/Rome:20261008T170000
-DTEND;TZID=Europe/Rome:20261008T190000
-DTSTAMP:20261008T150000Z
-UID:053ceaba268a6aae40032bf012cf28c7f9afb676f15e2468162043c7fef0225c@unibo
- -sid-v17
-SEQUENCE:0
-DESCRIPTION:👨‍🏫 Docente: Silvia Bagni\n\n📍 Posizione: AULA 4\, 
- Viale Filippo Corridoni\, 20 - Forlì\n\n🔗 Fonte: https://corsi.unibo.i
- t/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 4\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: DIRITTO COSTITUZIONALE COMPARATO / (A-L) /
-  (1) Modulo 1
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART;TZID=Europe/Rome:20261009T110000
 DTEND;TZID=Europe/Rome:20261009T130000
