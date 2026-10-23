@@ -609,24 +609,6 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART;TZID=Europe/Rome:20261029T090000
-DTEND;TZID=Europe/Rome:20261029T110000
-DTSTAMP:20261029T080000Z
-UID:e921f2a21ca494d2703e367861dc76a107abb79b49555ec640786dcc46321f83@unibo
- -sid-v17
-SEQUENCE:0
-DESCRIPTION:📍 Posizione: AULA 3.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\n🔗 Fonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplo
- matiche/orario-lezioni
-LOCATION:AULA 3.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART;TZID=Europe/Rome:20261029T150000
 DTEND;TZID=Europe/Rome:20261029T170000
