@@ -6,63 +6,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT15M
 X-PUBLISHED-TTL:PT15M
 X-WR-TIMEZONE:Europe/Rome
 BEGIN:VEVENT
-SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
-DTSTART;TZID=Europe/Rome:20261013T110000
-DTEND;TZID=Europe/Rome:20261013T130000
-DTSTAMP:20261013T090000Z
-UID:6adf81d9f67c136211fbc3dea30ceb3eccdedac76364a85f30aab052fb2ba959@unibo
- -sid-v17
-SEQUENCE:0
-DESCRIPTION:👨‍🏫 Docente: Leonardo Allodi\n\n📍 Posizione: AULA 1
- 2\, Viale Filippo Corridoni\, 20 - Forlì\n\n🔗 Fonte: https://corsi.uni
- bo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 12\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) 
- / (AL) lez.
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (2) Modulo 2
-DTSTART;TZID=Europe/Rome:20261013T150000
-DTEND;TZID=Europe/Rome:20261013T170000
-DTSTAMP:20261013T130000Z
-UID:5e8c0f157d367cc3edfc13608fd475cfd579277afbd54e48fa936e5f0fc60ae1@unibo
- -sid-v17
-SEQUENCE:0
-DESCRIPTION:👨‍🏫 Docente: Silvia Bagni\n\n📍 Posizione: AULA 8\, 
- Viale Filippo Corridoni\, 20 - Forlì\n\n🔗 Fonte: https://corsi.unibo.i
- t/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: DIRITTO COSTITUZIONALE COMPARATO / (A-L) /
-  (2) Modulo 2
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
-DTSTART;TZID=Europe/Rome:20261013T170000
-DTEND;TZID=Europe/Rome:20261013T190000
-DTSTAMP:20261013T150000Z
-UID:309c787cf3185eefb9fc1166f80901e9680c384b11aece271cccaa8ed00ac4c4@unibo
- -sid-v17
-SEQUENCE:0
-DESCRIPTION:👨‍🏫 Docente: Giuliana Laschi\n\n📍 Posizione: AULA 8
- \, Viale Filippo Corridoni\, 20 - Forlì\n\n🔗 Fonte: https://corsi.unib
- o.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: STORIA INTERNAZIONALE DELL'ETA' CONTEMPORA
- NEA / (A-L)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART;TZID=Europe/Rome:20261014T090000
 DTEND;TZID=Europe/Rome:20261014T110000
