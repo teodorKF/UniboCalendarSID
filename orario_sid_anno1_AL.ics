@@ -7,62 +7,6 @@ X-PUBLISHED-TTL:PT15M
 X-WR-TIMEZONE:Europe/Rome
 BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
-DTSTART;TZID=Europe/Rome:20261016T110000
-DTEND;TZID=Europe/Rome:20261016T130000
-DTSTAMP:20261016T090000Z
-UID:fd7d24afc2a2782ed1ebee55ed25507873406b826a14356d419026dc5753a594@unibo
- -sid-v17
-SEQUENCE:0
-DESCRIPTION:👨‍🏫 Docente: Leonardo Allodi\n\n📍 Posizione: AULA 6
- \, Viale Filippo Corridoni\, 20 - Forlì\n\n🔗 Fonte: https://corsi.unib
- o.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 6\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) 
- / (AL) lez.
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (2) Modulo 2
-DTSTART;TZID=Europe/Rome:20261016T130000
-DTEND;TZID=Europe/Rome:20261016T150000
-DTSTAMP:20261016T110000Z
-UID:887d613dc3ac8cb38e6bea306664f7f5f3db028b12aecdf3fbc68f1a222791d0@unibo
- -sid-v17
-SEQUENCE:0
-DESCRIPTION:👨‍🏫 Docente: Silvia Bagni\n\n📍 Posizione: AULA 6\, 
- Viale Filippo Corridoni\, 20 - Forlì\n\n🔗 Fonte: https://corsi.unibo.i
- t/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 6\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: DIRITTO COSTITUZIONALE COMPARATO / (A-L) /
-  (2) Modulo 2
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART;TZID=Europe/Rome:20261016T150000
-DTEND;TZID=Europe/Rome:20261016T170000
-DTSTAMP:20261016T130000Z
-UID:e50095f67ff4135968b03ecfb36e5feeb38f3012ca3de888f5e208a7ee340d59@unibo
- -sid-v17
-SEQUENCE:0
-DESCRIPTION:📍 Posizione: AULA 1.3\, Via Giacomo della Torre\, 5 - Forl
- ì\n\n🔗 Fonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplo
- matiche/orario-lezioni
-LOCATION:AULA 1.3\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART;TZID=Europe/Rome:20261020T110000
 DTEND;TZID=Europe/Rome:20261020T130000
 DTSTAMP:20261020T090000Z
