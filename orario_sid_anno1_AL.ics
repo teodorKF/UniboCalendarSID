@@ -6,25 +6,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT15M
 X-PUBLISHED-TTL:PT15M
 X-WR-TIMEZONE:Europe/Rome
 BEGIN:VEVENT
-SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
-DTSTART;TZID=Europe/Rome:20261028T090000
-DTEND;TZID=Europe/Rome:20261028T110000
-DTSTAMP:20261028T080000Z
-UID:8cedd2247430cf39117ac532f42b48d9e9266d58bd30099da8de93b99a8ba1c8@unibo
- -sid-v17
-SEQUENCE:0
-DESCRIPTION:👨‍🏫 Docente: Giuliana Laschi\n\n📍 Posizione: AULA 8
- \, Viale Filippo Corridoni\, 20 - Forlì\n\n🔗 Fonte: https://corsi.unib
- o.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: STORIA INTERNAZIONALE DELL'ETA' CONTEMPORA
- NEA / (A-L)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART;TZID=Europe/Rome:20261029T150000
 DTEND;TZID=Europe/Rome:20261029T170000
@@ -2358,6 +2339,24 @@ DESCRIPTION:👨‍🏫 Docente: Francesco Raschi\n\n📍 Posizione: AULA
  6\, Viale Filippo Corridoni\, 20 - Forlì\n\n🔗 Fonte: https://corsi.uni
  bo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni
 LOCATION:AULA 6\, Viale Filippo Corridoni\, 20 - Forlì
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Promemoria lezione: STORIA DEL PENSIERO POLITICO  / (A-L)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STORIA DEL PENSIERO POLITICO  / (A-L)
+DTSTART;TZID=Europe/Rome:20270512T130000
+DTEND;TZID=Europe/Rome:20270512T150000
+DTSTAMP:20270512T110000Z
+UID:67a4ec7a5a8dcda47843b8d85ee5c9dcafc2d9906f41a42f7db818d449336231@unibo
+ -sid-v17
+SEQUENCE:0
+DESCRIPTION:👨‍🏫 Docente: Francesco Raschi\n\n📍 Posizione: AULA 
+ 4\, Viale Filippo Corridoni\, 20 - Forlì\n\n🔗 Fonte: https://corsi.uni
+ bo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni
+LOCATION:AULA 4\, Viale Filippo Corridoni\, 20 - Forlì
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Promemoria lezione: STORIA DEL PENSIERO POLITICO  / (A-L)
