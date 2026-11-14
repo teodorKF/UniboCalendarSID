@@ -6,62 +6,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT15M
 X-PUBLISHED-TTL:PT15M
 X-WR-TIMEZONE:Europe/Rome
 BEGIN:VEVENT
-SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
-DTSTART;TZID=Europe/Rome:20261030T110000
-DTEND;TZID=Europe/Rome:20261030T130000
-DTSTAMP:20261030T100000Z
-UID:ff1cbf2f55541396fb0634eaa9cd519496a7675efe3c271473676520746b1de8@unibo
- -sid-v17
-SEQUENCE:0
-DESCRIPTION:👨‍🏫 Docente: Leonardo Allodi\n\n📍 Posizione: AULA 6
- \, Viale Filippo Corridoni\, 20 - Forlì\n\n🔗 Fonte: https://corsi.unib
- o.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 6\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) 
- / (AL) lez.
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (2) Modulo 2
-DTSTART;TZID=Europe/Rome:20261030T130000
-DTEND;TZID=Europe/Rome:20261030T160000
-DTSTAMP:20261030T120000Z
-UID:a77ad125e555f50cdc1b338cd9a46cc97709abb0813897cad33281d18e0f11aa@unibo
- -sid-v17
-SEQUENCE:0
-DESCRIPTION:👨‍🏫 Docente: Silvia Bagni\n\n📍 Posizione: AULA 6\, 
- Viale Filippo Corridoni\, 20 - Forlì\n\n🔗 Fonte: https://corsi.unibo.i
- t/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 6\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: DIRITTO COSTITUZIONALE COMPARATO / (A-L) /
-  (2) Modulo 2
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART;TZID=Europe/Rome:20261030T150000
-DTEND;TZID=Europe/Rome:20261030T170000
-DTSTAMP:20261030T140000Z
-UID:a537feb2a6f36b9f034eb8f79fed802d85269e53d12e9c3e7e17b9c22c26ccb5@unibo
- -sid-v17
-SEQUENCE:0
-DESCRIPTION:📍 Posizione: AULA 1.3\, Via Giacomo della Torre\, 5 - Forl
- ì\n\n🔗 Fonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplo
- matiche/orario-lezioni
-LOCATION:AULA 1.3\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:STORIA INTERNAZIONALE DELL'ETA' CONTEMPORANEA / (A-L)
 DTSTART;TZID=Europe/Rome:20261102T150000
 DTEND;TZID=Europe/Rome:20261102T170000
