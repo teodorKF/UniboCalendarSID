@@ -7,44 +7,6 @@ X-PUBLISHED-TTL:PT15M
 X-WR-TIMEZONE:Europe/Rome
 BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
-DTSTART;TZID=Europe/Rome:20261029T150000
-DTEND;TZID=Europe/Rome:20261029T170000
-DTSTAMP:20261029T140000Z
-UID:512f31d6f220d442b987a31285a0aa2d454b835367b32b9a31fc3849d5a908d4@unibo
- -sid-v17
-SEQUENCE:0
-DESCRIPTION:👨‍🏫 Docente: Leonardo Allodi\n\n📍 Posizione: AULA 1
- 2\, Viale Filippo Corridoni\, 20 - Forlì\n\n🔗 Fonte: https://corsi.uni
- bo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 12\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) 
- / (AL) lez.
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (2) Modulo 2
-DTSTART;TZID=Europe/Rome:20261029T170000
-DTEND;TZID=Europe/Rome:20261029T190000
-DTSTAMP:20261029T160000Z
-UID:a4f527c38ef9296fba99650650bd528fc04a8c68bbf451dd7b7fd5faa5c41cf7@unibo
- -sid-v17
-SEQUENCE:0
-DESCRIPTION:👨‍🏫 Docente: Silvia Bagni\n\n📍 Posizione: AULA 4\, 
- Viale Filippo Corridoni\, 20 - Forlì\n\n🔗 Fonte: https://corsi.unibo.i
- t/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 4\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: DIRITTO COSTITUZIONALE COMPARATO / (A-L) /
-  (2) Modulo 2
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART;TZID=Europe/Rome:20261030T110000
 DTEND;TZID=Europe/Rome:20261030T130000
 DTSTAMP:20261030T100000Z
@@ -2360,6 +2322,42 @@ LOCATION:AULA 4\, Viale Filippo Corridoni\, 20 - Forlì
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Promemoria lezione: STORIA DEL PENSIERO POLITICO  / (A-L)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STORIA DEL PENSIERO POLITICO  / (A-L)
+DTSTART;TZID=Europe/Rome:20270513T150000
+DTEND;TZID=Europe/Rome:20270513T170000
+DTSTAMP:20270513T130000Z
+UID:bf953732bc6a64d346727b3afe240a6ac5bf2caf3cc0eaecc2a48e4569cf5138@unibo
+ -sid-v17
+SEQUENCE:0
+DESCRIPTION:👨‍🏫 Docente: Francesco Raschi\n\n📍 Posizione: AULA 
+ 8\, Viale Filippo Corridoni\, 20 - Forlì\n\n🔗 Fonte: https://corsi.uni
+ bo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni
+LOCATION:AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Promemoria lezione: STORIA DEL PENSIERO POLITICO  / (A-L)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MICROECONOMIA / (A-L)
+DTSTART;TZID=Europe/Rome:20270513T170000
+DTEND;TZID=Europe/Rome:20270513T190000
+DTSTAMP:20270513T150000Z
+UID:24f85a1d2c269a01b6726aaedcf59fdca418ba2d1d3c2ab3786065517c9ad534@unibo
+ -sid-v17
+SEQUENCE:0
+DESCRIPTION:👨‍🏫 Docente: Giorgio Giovanni Negroni\n\n📍 Posizion
+ e: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì\n\n🔗 Fonte: https://c
+ orsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni
+LOCATION:AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Promemoria lezione: MICROECONOMIA / (A-L)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
