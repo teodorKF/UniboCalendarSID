@@ -16,10 +16,10 @@ OUTPUT_ICS_FILE = "orario_sid_anno1_AL.ics"
 
 
 def fetch_unibo_events():
-    """Scarica gli eventi a blocchi di 45 giorni per evitare il blocco/timeout HTTP 503 di UNIBO."""
+    """Scarica gli eventi a blocchi di 30 giorni e stampa eventuali risposte HTTP 400/500 di UNIBO."""
     session = requests.Session()
     retries = Retry(
-        total=4,
+        total=3,
         backoff_factor=2,
         status_forcelist=[429, 500, 502, 503, 504],
         allowed_methods=["GET"]
@@ -27,25 +27,24 @@ def fetch_unibo_events():
     session.mount("https://", HTTPAdapter(max_retries=retries))
 
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
-        "Accept": "application/json, text/javascript, */*; q=0.01",
-        "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
+        "Accept": "application/json, */*;q=0.8",
+        "Accept-Language": "it-IT,it;q=0.9",
         "Referer": "https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni",
-        "X-Requested-With": "XMLHttpRequest",
-        "Connection": "keep-alive"
     }
 
-    # Finestra totale: da -15 giorni fa a +180 giorni (6 mesi coprono tutto il semestre/anno)
     start_window = now_rome - timedelta(days=15)
     end_window = now_rome + timedelta(days=180)
-    chunk_days = 45
+    chunk_days = 30
 
     all_events = []
     seen_keys = set()
     current_start = start_window
     successful_chunks = 0
+    total_chunks = 0
 
     while current_start < end_window:
+        total_chunks += 1
         current_end = min(current_start + timedelta(days=chunk_days), end_window)
         s_str = current_start.strftime("%Y-%m-%d")
         e_str = current_end.strftime("%Y-%m-%d")
@@ -59,25 +58,32 @@ def fetch_unibo_events():
 
         try:
             resp = session.get(BASE_JSON_URL, params=params, headers=headers, timeout=25)
-            resp.raise_for_status()
+            if resp.status_code != 200:
+                print(f"⚠️ HTTP {resp.status_code} su {s_str} -> {e_str} | Risposta: {resp.text[:250]}")
+                current_start = current_end
+                time.sleep(0.5)
+                continue
+
             chunk_data = resp.json()
             if isinstance(chunk_data, list):
                 successful_chunks += 1
                 for ev in chunk_data:
-                    # Evita duplicati ai confini dei blocchi di date
                     ev_key = f"{ev.get('cod_modulo')}_{ev.get('start')}_{ev.get('end')}_{ev.get('title')}"
                     if ev_key not in seen_keys:
                         seen_keys.add(ev_key)
                         all_events.append(ev)
-            print(f"✅ Blocco {s_str} -> {e_str}: {len(chunk_data)} eventi ricevuti.")
+                print(f"✅ Blocco {s_str} -> {e_str}: {len(chunk_data)} eventi ricevuti.")
+            else:
+                print(f"⚠️ Risposta non-lista su {s_str} -> {e_str}: {str(chunk_data)[:200]}")
         except Exception as e:
-            print(f"⚠️ Errore sul blocco {s_str} -> {e_str}: {e}")
+            print(f"⚠️ Errore su {s_str} -> {e_str}: {e}")
 
         current_start = current_end
-        time.sleep(0.5)  # Piccola pausa gentile per non far scattare il rate-limit UNIBO
+        time.sleep(0.5)
 
-    if successful_chunks == 0:
-        raise RuntimeError("Nessun blocco scaricato con successo da UNIBO.")
+    # Evita di sovrascrivere il file .ics con dati parziali se troppi blocchi falliscono
+    if successful_chunks == 0 or successful_chunks < (total_chunks / 2):
+        raise RuntimeError(f"Troppi blocchi falliti ({successful_chunks}/{total_chunks} riusciti).")
 
     return all_events
 
