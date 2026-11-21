@@ -6,62 +6,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT15M
 X-PUBLISHED-TTL:PT15M
 X-WR-TIMEZONE:Europe/Rome
 BEGIN:VEVENT
-SUMMARY:lab lingua inglese n 7 - dott. Cecchi
-DTSTART;TZID=Europe/Rome:20261105T090000
-DTEND;TZID=Europe/Rome:20261105T110000
-DTSTAMP:20261105T080000Z
-UID:d5dc8d6e7ec8bc824f458bf19ea9d780e9d0c5f0da5561cc5affa8e40dfa3731@unibo
- -sid-v17
-SEQUENCE:0
-DESCRIPTION:📍 Posizione: AULA 3.2\, Via Giacomo della Torre\, 5 - Forl
- ì\n\n🔗 Fonte: https://corsi.unibo.it/laurea/ScienzeInternazionaliDiplo
- matiche/orario-lezioni
-LOCATION:AULA 3.2\, Via Giacomo della Torre\, 5 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: lab lingua inglese n 7 - dott. Cecchi
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
-DTSTART;TZID=Europe/Rome:20261105T150000
-DTEND;TZID=Europe/Rome:20261105T170000
-DTSTAMP:20261105T140000Z
-UID:52eb3406e2f1269c2859dcee3e4afe5907b37d88f9c3bcae2fa2b18a17e40e81@unibo
- -sid-v17
-SEQUENCE:0
-DESCRIPTION:👨‍🏫 Docente: Leonardo Allodi\n\n📍 Posizione: AULA 1
- 2\, Viale Filippo Corridoni\, 20 - Forlì\n\n🔗 Fonte: https://corsi.uni
- bo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 12\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) 
- / (AL) lez.
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DIRITTO COSTITUZIONALE COMPARATO / (A-L) / (2) Modulo 2
-DTSTART;TZID=Europe/Rome:20261105T170000
-DTEND;TZID=Europe/Rome:20261105T190000
-DTSTAMP:20261105T160000Z
-UID:997b865dc29a5899ec3f6afaeac0b047734f0f616fce8274a707ca3a5d1647e7@unibo
- -sid-v17
-SEQUENCE:0
-DESCRIPTION:👨‍🏫 Docente: Silvia Bagni\n\n📍 Posizione: AULA 4\, 
- Viale Filippo Corridoni\, 20 - Forlì\n\n🔗 Fonte: https://corsi.unibo.i
- t/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni
-LOCATION:AULA 4\, Viale Filippo Corridoni\, 20 - Forlì
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Promemoria lezione: DIRITTO COSTITUZIONALE COMPARATO / (A-L) /
-  (2) Modulo 2
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:SOCIOLOGIA DEI PROCESSI CULTURALI / (A-L) / (AL) lez.
 DTSTART;TZID=Europe/Rome:20261106T110000
 DTEND;TZID=Europe/Rome:20261106T130000
@@ -2222,6 +2166,42 @@ LOCATION:AULA 4\, Viale Filippo Corridoni\, 20 - Forlì
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Promemoria lezione: STORIA DEL PENSIERO POLITICO  / (A-L)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STORIA DEL PENSIERO POLITICO  / (A-L)
+DTSTART;TZID=Europe/Rome:20270520T150000
+DTEND;TZID=Europe/Rome:20270520T170000
+DTSTAMP:20270520T130000Z
+UID:0121e2466aa68e753b5e4bb790b45bb8ba7a86e5abc3d125ec951d54b1c71a86@unibo
+ -sid-v17
+SEQUENCE:0
+DESCRIPTION:👨‍🏫 Docente: Francesco Raschi\n\n📍 Posizione: AULA 
+ 8\, Viale Filippo Corridoni\, 20 - Forlì\n\n🔗 Fonte: https://corsi.uni
+ bo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni
+LOCATION:AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Promemoria lezione: STORIA DEL PENSIERO POLITICO  / (A-L)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MICROECONOMIA / (A-L)
+DTSTART;TZID=Europe/Rome:20270520T170000
+DTEND;TZID=Europe/Rome:20270520T190000
+DTSTAMP:20270520T150000Z
+UID:ef89b438bd08eb1ba43e0dfef71cf9a4cff4dacc8f84fefe6ffd0e0d8d1fc342@unibo
+ -sid-v17
+SEQUENCE:0
+DESCRIPTION:👨‍🏫 Docente: Giorgio Giovanni Negroni\n\n📍 Posizion
+ e: AULA 8\, Viale Filippo Corridoni\, 20 - Forlì\n\n🔗 Fonte: https://c
+ orsi.unibo.it/laurea/ScienzeInternazionaliDiplomatiche/orario-lezioni
+LOCATION:AULA 8\, Viale Filippo Corridoni\, 20 - Forlì
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Promemoria lezione: MICROECONOMIA / (A-L)
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
